@@ -20,27 +20,28 @@ This repository contains a complete bioinformatics pipeline for analyzing the ev
 
 ```
 MYOD1/
-├── 01_sequences/          # Input sequences
-│   ├── query/            # MYOD1 query sequence
-│   └── homologs/         # Retrieved homolog sequences
-├── 02_blast_results/      # BLAST search results
-│   ├── by_species/       # Organized by taxonomic groups
-│   ├── orthologs/        # Predicted orthologs
-│   ├── paralogs/         # Predicted paralogs
-│   └── statistics/       # Summary statistics
-├── 03_alignments/         # Multiple sequence alignments
-│   ├── mafft/           # MAFFT alignments
-│   └── prank/           # PRANK alignments
-├── 03_orthofinder/        # OrthoFinder analysis
-│   └── proteomes/        # Input proteomes
-├── 04_phylogeny/          # Phylogenetic trees
-│   ├── mafft_trees/     # Trees from MAFFT alignments
-│   ├── prank_trees/     # Trees from PRANK alignments
-│   ├── publication_trees/ # Publication-ready figures
-│   └── visualizations/   # Tree visualizations
-└── 05_domains/            # Domain analysis
-    ├── hmmer/           # HMMER domain predictions
-    └── visualizations/   # Domain structure plots
+└── blast_conservation/    # Main analysis directory
+    ├── 01_sequences/          # Input sequences
+    │   ├── query/            # MYOD1 query sequence
+    │   └── homologs/         # Retrieved homolog sequences
+    ├── 02_blast_results/      # BLAST search results
+    │   ├── by_species/       # Organized by taxonomic groups
+    │   ├── orthologs/        # Predicted orthologs
+    │   ├── paralogs/         # Predicted paralogs
+    │   └── statistics/       # Summary statistics
+    ├── 03_alignments/         # Multiple sequence alignments
+    │   ├── mafft/           # MAFFT alignments
+    │   └── prank/           # PRANK alignments
+    ├── 03_orthofinder/        # OrthoFinder analysis
+    │   └── proteomes/        # Input proteomes
+    ├── 04_phylogeny/          # Phylogenetic trees
+    │   ├── mafft_trees/     # Trees from MAFFT alignments
+    │   ├── prank_trees/     # Trees from PRANK alignments
+    │   ├── publication_trees/ # Publication-ready figures
+    │   └── visualizations/   # Tree visualizations
+    └── 05_domains/            # Domain analysis
+        ├── hmmer/           # HMMER domain predictions
+        └── visualizations/   # Domain structure plots
 ```
 
 ## Prerequisites
@@ -69,6 +70,11 @@ npm install
 ```
 
 ## Quick Start
+
+Navigate to the analysis directory:
+```bash
+cd blast_conservation
+```
 
 ### 1. BLAST Search for Homologs
 

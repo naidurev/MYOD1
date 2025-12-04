@@ -1,0 +1,64 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+
+DATASET_LABEL	MRF Gene Types
+COLOR	#ff0000
+
+LEGEND_TITLE	Gene Family
+LEGEND_SHAPES	1	1	1	1
+LEGEND_COLORS	#E74C3C	#3498DB	#C0392B	#2ECC71
+LEGEND_LABELS	MYOD1	MYF5	MYOD2	MYOG
+
+DATA
+Homo_sapiens_MYOD1	#E74C3C	MYOD1
+Mus_musculus_MYOD1	#E74C3C	MYOD1
+Canis_lupus_MYOD1	#E74C3C	MYOD1
+Bos_taurus_MYOD1	#E74C3C	MYOD1
+Gallus_gallus_MYOD1	#E74C3C	MYOD1
+Xenopus_laevis_MYOD1	#E74C3C	MYOD1
+Xenopus_laevis_MYOD1_2	#E74C3C	MYOD1
+Xenopus_tropicalis_MYOD1	#E74C3C	MYOD1
+Danio_rerio_MYOD1	#E74C3C	MYOD1
+Salmo_salar_MYOD1	#E74C3C	MYOD1
+Salmo_salar_MYOD1_2	#E74C3C	MYOD1
+Salmo_salar_MYOD1_3	#E74C3C	MYOD1
+Oryzias_latipes_MYOD1	#E74C3C	MYOD1
+Oryzias_latipes_MYOD1_2	#E74C3C	MYOD1
+Oryzias_latipes_MYOD1_3	#E74C3C	MYOD1
+Takifugu_rubripes_MYOD1	#E74C3C	MYOD1
+Takifugu_rubripes_MYOD1_2	#E74C3C	MYOD1
+Takifugu_rubripes_MYOD1_3	#E74C3C	MYOD1
+Homo_sapiens_MYF5	#3498DB	MYF5
+Mus_musculus_MYF5	#3498DB	MYF5
+Canis_lupus_MYF5	#3498DB	MYF5
+Bos_taurus_MYF5	#3498DB	MYF5
+Bos_taurus_MYF5_2	#3498DB	MYF5
+Gallus_gallus_MYF5	#3498DB	MYF5
+Xenopus_laevis_MYF5	#3498DB	MYF5
+Xenopus_laevis_MYF5_2	#3498DB	MYF5
+Xenopus_tropicalis_MYF5	#3498DB	MYF5
+Danio_rerio_MYF5	#3498DB	MYF5
+Danio_rerio_MYF5_2	#3498DB	MYF5
+Salmo_salar_MYF5	#3498DB	MYF5
+Salmo_salar_MYF5_2	#3498DB	MYF5
+Oryzias_latipes_MYF5	#3498DB	MYF5
+Takifugu_rubripes_MYF5	#3498DB	MYF5
+Takifugu_rubripes_MYF5_2	#3498DB	MYF5
+Salmo_salar_MYOD2	#C0392B	MYOD2
+Takifugu_rubripes_MYOD2	#C0392B	MYOD2
+Homo_sapiens_MYOG	#2ECC71	MYOG
+Mus_musculus_MYOG	#2ECC71	MYOG
+Canis_lupus_MYOG	#2ECC71	MYOG
+Bos_taurus_MYOG	#2ECC71	MYOG
+Gallus_gallus_MYOG	#2ECC71	MYOG
+Xenopus_laevis_MYOG	#2ECC71	MYOG
+Xenopus_laevis_MYOG_2	#2ECC71	MYOG
+Xenopus_laevis_MYOG_3	#2ECC71	MYOG
+Xenopus_tropicalis_MYOG	#2ECC71	MYOG
+Danio_rerio_TAL2	#2ECC71	MYOG
+Danio_rerio_MYOG	#2ECC71	MYOG
+Salmo_salar_MYOG	#2ECC71	MYOG
+Salmo_salar_MYOG_2	#2ECC71	MYOG
+Oryzias_latipes_MYOG	#2ECC71	MYOG
+Takifugu_rubripes_MYOG	#2ECC71	MYOG
+Takifugu_rubripes_MYOG_2	#2ECC71	MYOG

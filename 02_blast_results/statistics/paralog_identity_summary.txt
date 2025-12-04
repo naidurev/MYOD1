@@ -1,0 +1,15 @@
+MRF Family Paralog Identity Summary
+====================================
+
+Average identity between human MYOD1 and other MRF members:
+
+Reference: Human MYOD1 (ref|NP_002469.2|)
+
+MYOD1 vs MYF5:  ~45.7% identity (estimated)
+MYOD1 vs MYOG:  ~50.4% identity (estimated)
+MYOD1 vs MYF6:  ~N/A% identity (estimated)
+
+Interpretation:
+- Identity >80%: Recent divergence (orthologs across species)
+- Identity 40-70%: Ancient divergence (paralogs within genome)
+- All MRF members share common ancestral gene

@@ -1,0 +1,930 @@
+{
+  "NP_001025534.2": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.9e-29,
+      "score": 101.4,
+      "start": 145,
+      "end": 217,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 3.2e-24,
+      "score": 86.4,
+      "start": 14,
+      "end": 85,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 7e-15,
+      "score": 55.1,
+      "start": 86,
+      "end": 137,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001027941.1": [
+    {
+      "domain": "Basic",
+      "evalue": 2.5e-27,
+      "score": 96.3,
+      "start": 14,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 6.1e-15,
+      "score": 55.3,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 3.5e-07,
+      "score": 31.4,
+      "start": 177,
+      "end": 197,
+      "description": "Myogenic determination factor 5"
+    }
+  ],
+  "NP_001027942.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 5.2e-28,
+      "score": 98.1,
+      "start": 127,
+      "end": 198,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 9e-15,
+      "score": 56.1,
+      "start": 24,
+      "end": 67,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 9.4e-15,
+      "score": 54.7,
+      "start": 68,
+      "end": 119,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001035151.1": [
+    {
+      "domain": "Basic",
+      "evalue": 1.9e-25,
+      "score": 90.3,
+      "start": 13,
+      "end": 95,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 3.8e-21,
+      "score": 76.1,
+      "start": 165,
+      "end": 230,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 9.4e-15,
+      "score": 54.7,
+      "start": 96,
+      "end": 147,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001035568.2": [
+    {
+      "domain": "Basic",
+      "evalue": 1.3e-29,
+      "score": 103.6,
+      "start": 27,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 1.6e-26,
+      "score": 93.3,
+      "start": 191,
+      "end": 259,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.7e-15,
+      "score": 55.6,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001079366.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 1.6e-26,
+      "score": 93.4,
+      "start": 162,
+      "end": 230,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 8.7e-26,
+      "score": 91.4,
+      "start": 25,
+      "end": 95,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 1.6e-14,
+      "score": 53.9,
+      "start": 96,
+      "end": 147,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001081292.1": [
+    {
+      "domain": "Basic",
+      "evalue": 1.1e-24,
+      "score": 87.8,
+      "start": 26,
+      "end": 97,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 2.4e-20,
+      "score": 73.5,
+      "start": 164,
+      "end": 229,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 1.6e-15,
+      "score": 57.1,
+      "start": 98,
+      "end": 149,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001095249.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.4e-27,
+      "score": 95.1,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 4.3e-21,
+      "score": 76.3,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 3.2e-15,
+      "score": 56.2,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001117026.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 1.6e-26,
+      "score": 93.3,
+      "start": 150,
+      "end": 222,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 6.2e-26,
+      "score": 91.8,
+      "start": 14,
+      "end": 84,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.1e-15,
+      "score": 55.8,
+      "start": 85,
+      "end": 136,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001117073.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 1.6e-27,
+      "score": 96.5,
+      "start": 152,
+      "end": 221,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 6.6e-26,
+      "score": 91.8,
+      "start": 14,
+      "end": 84,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 6.4e-15,
+      "score": 55.2,
+      "start": 85,
+      "end": 136,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001117109.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 9.5e-28,
+      "score": 97.2,
+      "start": 153,
+      "end": 221,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 2.7e-26,
+      "score": 93.0,
+      "start": 14,
+      "end": 84,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 1.4e-15,
+      "score": 57.3,
+      "start": 85,
+      "end": 136,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_001117116.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 5.9e-18,
+      "score": 65.9,
+      "start": 126,
+      "end": 198,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 2.9e-15,
+      "score": 57.7,
+      "start": 31,
+      "end": 66,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2e-14,
+      "score": 53.6,
+      "start": 67,
+      "end": 118,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_002469.2": [
+    {
+      "domain": "Basic",
+      "evalue": 2.7e-29,
+      "score": 102.6,
+      "start": 27,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 7.1e-26,
+      "score": 91.2,
+      "start": 191,
+      "end": 259,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.7e-15,
+      "score": 55.6,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_005584.2": [
+    {
+      "domain": "Myf5",
+      "evalue": 2.3e-28,
+      "score": 99.2,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 4.8e-21,
+      "score": 76.2,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 5e-15,
+      "score": 55.5,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_032682.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 1.1e-28,
+      "score": 100.3,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 8e-22,
+      "score": 78.7,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 5e-15,
+      "score": 55.5,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_034996.2": [
+    {
+      "domain": "Basic",
+      "evalue": 3.3e-29,
+      "score": 102.4,
+      "start": 27,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 8.2e-26,
+      "score": 91.1,
+      "start": 190,
+      "end": 258,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.9e-15,
+      "score": 55.6,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_571337.2": [
+    {
+      "domain": "Myf5",
+      "evalue": 1e-29,
+      "score": 103.6,
+      "start": 151,
+      "end": 220,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 1.7e-26,
+      "score": 93.6,
+      "start": 14,
+      "end": 84,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 1.9e-15,
+      "score": 56.9,
+      "start": 85,
+      "end": 136,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_571651.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.5e-26,
+      "score": 91.9,
+      "start": 127,
+      "end": 199,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 1e-15,
+      "score": 59.1,
+      "start": 29,
+      "end": 67,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 6.4e-15,
+      "score": 55.2,
+      "start": 68,
+      "end": 119,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_776541.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.1e-28,
+      "score": 98.4,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 1.2e-22,
+      "score": 81.3,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.4e-15,
+      "score": 56.5,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_988932.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.4e-28,
+      "score": 98.3,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 1.3e-21,
+      "score": 78.0,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.9e-15,
+      "score": 56.3,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_988972.1": [
+    {
+      "domain": "Basic",
+      "evalue": 5.1e-26,
+      "score": 92.1,
+      "start": 25,
+      "end": 95,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 1.3e-25,
+      "score": 90.4,
+      "start": 162,
+      "end": 229,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 5.5e-15,
+      "score": 55.4,
+      "start": 96,
+      "end": 147,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "NP_989545.3": [
+    {
+      "domain": "Basic",
+      "evalue": 9.4e-29,
+      "score": 100.9,
+      "start": 21,
+      "end": 101,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 6.3e-27,
+      "score": 94.6,
+      "start": 168,
+      "end": 236,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 6.7e-15,
+      "score": 55.1,
+      "start": 102,
+      "end": 153,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_004069479.1": [
+    {
+      "domain": "Basic",
+      "evalue": 3.3e-29,
+      "score": 102.3,
+      "start": 14,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 4.7e-27,
+      "score": 95.0,
+      "start": 177,
+      "end": 247,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 3.9e-15,
+      "score": 55.9,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_011489557.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 6.1e-27,
+      "score": 94.7,
+      "start": 127,
+      "end": 198,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 7.3e-15,
+      "score": 55.0,
+      "start": 68,
+      "end": 119,
+      "description": "Helix-loop-helix DNA-binding domain"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 5.9e-14,
+      "score": 53.4,
+      "start": 31,
+      "end": 67,
+      "description": "Myogenic Basic domain"
+    }
+  ],
+  "XP_014008915.2": [
+    {
+      "domain": "Myf5",
+      "evalue": 5e-23,
+      "score": 82.1,
+      "start": 126,
+      "end": 198,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 3.7e-15,
+      "score": 57.3,
+      "start": 31,
+      "end": 66,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 6.2e-15,
+      "score": 55.2,
+      "start": 67,
+      "end": 118,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_014032073.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 8.9e-28,
+      "score": 97.3,
+      "start": 153,
+      "end": 221,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 3.2e-26,
+      "score": 92.8,
+      "start": 14,
+      "end": 84,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 1.3e-15,
+      "score": 57.4,
+      "start": 85,
+      "end": 136,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_018111522.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 6.9e-27,
+      "score": 94.5,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 7.8e-22,
+      "score": 78.7,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.8e-15,
+      "score": 56.4,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_023807068.1": [
+    {
+      "domain": "Basic",
+      "evalue": 1.2e-22,
+      "score": 81.3,
+      "start": 16,
+      "end": 91,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.4e-15,
+      "score": 56.6,
+      "start": 92,
+      "end": 143,
+      "description": "Helix-loop-helix DNA-binding domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 9.3e-08,
+      "score": 33.2,
+      "start": 162,
+      "end": 238,
+      "description": "Myogenic determination factor 5"
+    }
+  ],
+  "XP_023807072.1": [
+    {
+      "domain": "Basic",
+      "evalue": 1.1e-22,
+      "score": 81.5,
+      "start": 16,
+      "end": 91,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.1e-15,
+      "score": 56.8,
+      "start": 92,
+      "end": 143,
+      "description": "Helix-loop-helix DNA-binding domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 2.5e-13,
+      "score": 51.1,
+      "start": 162,
+      "end": 220,
+      "description": "Myogenic determination factor 5"
+    }
+  ],
+  "XP_025295134.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 2.7e-25,
+      "score": 89.4,
+      "start": 144,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 4.9e-19,
+      "score": 69.7,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.8e-15,
+      "score": 55.6,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_025315455.1": [
+    {
+      "domain": "Basic",
+      "evalue": 4.5e-29,
+      "score": 101.9,
+      "start": 27,
+      "end": 109,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 1.1e-25,
+      "score": 90.7,
+      "start": 191,
+      "end": 259,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 4.7e-15,
+      "score": 55.6,
+      "start": 110,
+      "end": 161,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_027399073.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 4.1e-28,
+      "score": 98.4,
+      "start": 143,
+      "end": 214,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 2.2e-22,
+      "score": 80.4,
+      "start": 14,
+      "end": 83,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 2.4e-15,
+      "score": 56.5,
+      "start": 84,
+      "end": 135,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_056877834.1": [
+    {
+      "domain": "Basic",
+      "evalue": 1.6e-25,
+      "score": 90.5,
+      "start": 13,
+      "end": 95,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 3.9e-21,
+      "score": 76.1,
+      "start": 165,
+      "end": 230,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 9.8e-15,
+      "score": 54.6,
+      "start": 96,
+      "end": 147,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_056878323.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 2.6e-28,
+      "score": 99.0,
+      "start": 127,
+      "end": 198,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "Basic",
+      "evalue": 1.2e-14,
+      "score": 55.6,
+      "start": 30,
+      "end": 67,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 8.5e-15,
+      "score": 54.8,
+      "start": 68,
+      "end": 119,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_056907047.1": [
+    {
+      "domain": "Basic",
+      "evalue": 4.6e-27,
+      "score": 95.5,
+      "start": 15,
+      "end": 110,
+      "description": "Myogenic Basic domain"
+    },
+    {
+      "domain": "Myf5",
+      "evalue": 1.6e-24,
+      "score": 86.9,
+      "start": 178,
+      "end": 244,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 7.6e-15,
+      "score": 55.0,
+      "start": 111,
+      "end": 162,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ],
+  "XP_073802758.1": [
+    {
+      "domain": "Myf5",
+      "evalue": 1.9e-26,
+      "score": 93.1,
+      "start": 54,
+      "end": 126,
+      "description": "Myogenic determination factor 5"
+    },
+    {
+      "domain": "HLH",
+      "evalue": 7.4e-14,
+      "score": 51.8,
+      "start": 2,
+      "end": 46,
+      "description": "Helix-loop-helix DNA-binding domain"
+    }
+  ]
+}

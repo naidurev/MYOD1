@@ -1,0 +1,200 @@
+LOCUS       NP_002469                320 aa            linear   PRI 22-JUN-2025
+DEFINITION  myoblast determination protein 1 [Homo sapiens].
+ACCESSION   NP_002469
+VERSION     NP_002469.2
+DBSOURCE    REFSEQ: accession NM_002478.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 320)
+  AUTHORS   Wu,F., Zhang,J., Jiang,Q., Li,Q., Li,F., Li,J., Lv,W., Wang,X.,
+            Qin,Y., Huang,C. and Zhang,S.
+  TITLE     MyoD1 promotes the transcription of BIK and plays an
+            apoptosis-promoting role in the development of gastric cancer
+  JOURNAL   Cell Cycle 23 (5), 573-587 (2024)
+   PUBMED   38701194
+  REMARK    GeneRIF: MyoD1 promotes the transcription of BIK and plays an
+            apoptosis-promoting role in the development of gastric cancer.
+REFERENCE   2  (residues 1 to 320)
+  AUTHORS   Pomella,S., Cassandri,M., D'Archivio,L., Porrazzo,A., Cossetti,C.,
+            Phelps,D., Perrone,C., Pezzella,M., Cardinale,A., Wachtel,M.,
+            Aloisi,S., Milewski,D., Colletti,M., Sreenivas,P., Walters,Z.S.,
+            Barillari,G., Di Giannatale,A., Milano,G.M., De Stefanis,C.,
+            Alaggio,R., Rodriguez-Rodriguez,S., Carlesso,N., Vakoc,C.R.,
+            Velardi,E., Schafer,B.W., Guccione,E., Gatz,S.A., Wasti,A.,
+            Yohe,M., Ignatius,M., Quintarelli,C., Shipley,J., Miele,L.,
+            Khan,J., Houghton,P.J., Marampon,F., Gryder,B.E., De Angelis,B.,
+            Locatelli,F. and Rota,R.
+  TITLE     MYOD-SKP2 axis boosts tumorigenesis in fusion negative
+            rhabdomyosarcoma by preventing differentiation through p57Kip2
+            targeting
+  JOURNAL   Nat Commun 14 (1), 8373 (2023)
+   PUBMED   38102140
+  REMARK    GeneRIF: MYOD-SKP2 axis boosts tumorigenesis in fusion negative
+            rhabdomyosarcoma by preventing differentiation through p57[Kip2]
+            targeting.
+            Publication Status: Online-Only
+REFERENCE   3  (residues 1 to 320)
+  AUTHORS   Choo,F., Odintsov,I., Nusser,K., Nicholson,K.S., Davis,L.,
+            Corless,C.L., Stork,L., Somwar,R., Ladanyi,M., Davis,J.L. and
+            Davare,M.A.
+  TITLE     Functional impact and targetability of PI3KCA, GNAS, and PTEN
+            mutations in a spindle cell rhabdomyosarcoma with MYOD1 L122R
+            mutation
+  JOURNAL   Cold Spring Harb Mol Case Stud 8 (1), a006140 (2022)
+   PUBMED   35012940
+  REMARK    GeneRIF: Functional impact and targetability of PI3KCA, GNAS, and
+            PTEN mutations in a spindle cell rhabdomyosarcoma with MYOD1 L122R
+            mutation.
+            Erratum:[Cold Spring Harb Mol Case Stud. 2022 Apr 28;8(3):a006216.
+            doi: 10.1101/mcs.a006216. PMID: 35483883]
+            Publication Status: Online-Only
+REFERENCE   4  (residues 1 to 320)
+  AUTHORS   Ahmed,A.A., Habeebu,S., Farooqi,M.S., Gamis,A.S., Gonzalez,E.,
+            Flatt,T., Sherman,A., Surrey,L., Arnold,M.A., Conces,M., Koo,S.,
+            Dioufa,N., Barr,F.G. and Tsokos,M.G.
+  TITLE     MYOD1 as a prognostic indicator in rhabdomyosarcoma
+  JOURNAL   Pediatr Blood Cancer 68 (9), e29085 (2021)
+   PUBMED   33913590
+  REMARK    GeneRIF: MYOD1 as a prognostic indicator in rhabdomyosarcoma.
+REFERENCE   5  (residues 1 to 320)
+  AUTHORS   Jacchetti,E., Nasehi,R., Boeri,L., Parodi,V., Negro,A., Albani,D.,
+            Osellame,R., Cerullo,G., Matas,J.F.R. and Raimondi,M.T.
+  TITLE     The nuclear import of the transcription factor MyoD is reduced in
+            mesenchymal stem cells grown in a 3D micro-engineered niche
+  JOURNAL   Sci Rep 11 (1), 3021 (2021)
+   PUBMED   33542304
+  REMARK    GeneRIF: The nuclear import of the transcription factor MyoD is
+            reduced in mesenchymal stem cells grown in a 3D micro-engineered
+            niche.
+            Publication Status: Online-Only
+REFERENCE   6  (residues 1 to 320)
+  AUTHORS   Li,L., Zhou,J., James,G., Heller-Harrison,R., Czech,M.P. and
+            Olson,E.N.
+  TITLE     FGF inactivates myogenic helix-loop-helix proteins through
+            phosphorylation of a conserved protein kinase C site in their
+            DNA-binding domains
+  JOURNAL   Cell 71 (7), 1181-1194 (1992)
+   PUBMED   1335366
+REFERENCE   7  (residues 1 to 320)
+  AUTHORS   Shaknovich,R., Shue,G. and Kohtz,D.S.
+  TITLE     Conformational activation of a basic helix-loop-helix protein
+            (MyoD1) by the C-terminal region of murine HSP90 (HSP84)
+  JOURNAL   Mol Cell Biol 12 (11), 5059-5068 (1992)
+   PUBMED   1406681
+REFERENCE   8  (residues 1 to 320)
+  AUTHORS   Walsh,K. and Gualberto,A.
+  TITLE     MyoD binds to the guanine tetrad nucleic acid structure
+  JOURNAL   J Biol Chem 267 (19), 13714-13718 (1992)
+   PUBMED   1320026
+REFERENCE   9  (residues 1 to 320)
+  AUTHORS   Bengal,E., Ransone,L., Scharfmann,R., Dwarki,V.J., Tapscott,S.J.,
+            Weintraub,H. and Verma,I.M.
+  TITLE     Functional antagonism between c-Jun and MyoD proteins: a direct
+            physical association
+  JOURNAL   Cell 68 (3), 507-519 (1992)
+   PUBMED   1310896
+REFERENCE   10 (residues 1 to 320)
+  AUTHORS   Lassar,A.B., Davis,R.L., Wright,W.E., Kadesch,T., Murre,C.,
+            Voronova,A., Baltimore,D. and Weintraub,H.
+  TITLE     Functional activity of myogenic HLH proteins requires
+            hetero-oligomerization with E12/E47-like proteins in vivo
+  JOURNAL   Cell 66 (2), 305-315 (1991)
+   PUBMED   1649701
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BF304059.1, BF205042.1,
+            AC124301.6 and AI300241.1.
+            
+            On Sep 18, 2002 this sequence version replaced NP_002469.1.
+            
+            Summary: This gene encodes a nuclear protein that belongs to the
+            basic helix-loop-helix family of transcription factors and the
+            myogenic factors subfamily. It regulates muscle cell
+            differentiation by inducing cell cycle arrest, a prerequisite for
+            myogenic initiation. The protein is also involved in muscle
+            regeneration. It activates its own transcription which may
+            stabilize commitment to myogenesis. [provided by RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: X56677.1, X17650.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2153307, SAMEA2162946
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000250003.4/ ENSP00000250003.3
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..320
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11p15.1"
+     Protein         1..320
+                     /product="myoblast determination protein 1"
+                     /note="myogenic factor 3; myf-3; class C basic
+                     helix-loop-helix protein 1"
+                     /calculated_mol_wt=34370
+     Region          19..114
+                     /region_name="BASIC"
+                     /note="Basic domain in HLH proteins of MYOD family;
+                     smart00520"
+                     /db_xref="CDD:128794"
+     Site            104
+                     /site_type="methylation"
+                     /note="N6-methyllysine, by EHMT2.
+                     /evidence=ECO:0000269|PubMed:22215600; propagated from
+                     UniProtKB/Swiss-Prot (P15172.3)"
+     Region          105..165
+                     /region_name="bHLH_TS_MYOD1_Myf3"
+                     /note="basic helix-loop-helix (bHLH) domain found in
+                     myoblast determination protein 1 (MYOD1) and similar
+                     proteins; cd18936"
+                     /db_xref="CDD:381506"
+     Site            order(110..111,115,117..119,121,126,143..146)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:381506"
+     Site            order(124..125,128..129,131..132,147,150,154,156..157,161,
+                     163..164)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:381506"
+     Region          174..219
+                     /region_name="Disordered.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15172.3)"
+     Region          191..259
+                     /region_name="Myf5"
+                     /note="Myogenic determination factor 5; pfam12232"
+                     /db_xref="CDD:463500"
+     Region          262..320
+                     /region_name="Disordered.
+                     /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15172.3)"
+     CDS             1..320
+                     /gene="MYOD1"
+                     /gene_synonym="bHLHc1; CMYO17; CMYP17; MYF3; MYOD;
+                     MYODRIF; PUM"
+                     /coded_by="NM_002478.5:213..1175"
+                     /db_xref="CCDS:CCDS7826.1"
+                     /db_xref="GeneID:4654"
+                     /db_xref="HGNC:HGNC:7611"
+                     /db_xref="MIM:159970"
+ORIGIN      
+        1 mellspplrd vdltapdgsl csfattddfy ddpcfdspdl rffedldprl mhvgallkpe
+       61 ehshfpaavh papgaredeh vrapsghhqa grcllwacka ckrkttnadr rkaatmrerr
+      121 rlskvneafe tlkrctssnp nqrlpkveil rnairyiegl qallrdqdaa ppgaaaafya
+      181 pgplppgrgg ehysgdsdas sprsncsdgm mdysgppsga rrrncyegay yneapseprp
+      241 gksaavssld clssiveris tespaapall ladvpsespp rrqeaaapse gessgdptqs
+      301 pdaapqcpag anpnpiyqvl
+//

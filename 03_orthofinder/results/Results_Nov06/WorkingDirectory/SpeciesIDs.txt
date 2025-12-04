@@ -1,0 +1,11 @@
+0: Bos_taurus.fasta
+1: Canis_lupus.fasta
+2: Danio_rerio.fasta
+3: Gallus_gallus.fasta
+4: Homo_sapiens.fasta
+5: Mus_musculus.fasta
+6: Oryzias_latipes.fasta
+7: Salmo_salar.fasta
+8: Takifugu_rubripes.fasta
+9: Xenopus_laevis.fasta
+10: Xenopus_tropicalis.fasta

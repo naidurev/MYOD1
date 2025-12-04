@@ -1,0 +1,2247 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             03_alignments/OG0000000_sequences.fasta
+# target HMM database:             05_domains/pfam_database/Pfam-A.hmm
+# per-dom hits tabular output:     05_domains/hmmer/OG0000000_domains.txt
+# model-specific thresholding:     GA cutoffs
+# multithread parallelization:     4 workers
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       NP_001025534.2  [L=258]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.9e-29  101.4   5.4    1.2e-28  100.1   5.4    1.7  1  Myf5      Myogenic determination factor 5
+    3.2e-24   86.4   0.9    8.5e-24   85.0   0.5    2.0  1  Basic     Myogenic Basic domain
+      7e-15   55.1   4.7    1.1e-14   54.4   4.7    1.3  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.1   5.4   1.4e-32   1.2e-28       1      71 []     145     217 ..     145     217 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 100.1 bits;  conditional E-value: 1.4e-32
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yy+L  +s+Sep+SP+S+CSD mad+ sPvw +r ss+++ y++e+++++++e+s ++SSLdCLSsIV+R+
+  NP_001025534.2 145 ENYYHLpgQSCSEPTSPSSSCSDVMADCGSPVWPARGSSFEAGYCPEMPHGYATEQSGALSSLDCLSSIVDRL 217
+                     89**********************************************************************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.0   0.5     1e-27   8.5e-24       2      86 .]      14      85 ..      13      85 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 85.0 bits;  conditional E-value: 1e-27
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     +y++sc+++p+ +f ed+e ++L  ++a    + e  ++++e         +eehvrapsg+H+aG+CL+WACK+CKrKs+tmD
+  NP_001025534.2 14 LFYDSSCLSSPEGEFPEDFEPRELPPFGAP--APTE--PACPE---------EEEHVRAPSGHHQAGHCLMWACKACKRKSTTMD 85
+                    59**************************53..3333..44655.........49******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   4.7   1.3e-18   1.1e-14       1      53 []      86     137 ..      86     137 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 1.3e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+af++L+++    +p+++l K+eiLr Ai+YI +Lq
+  NP_001025534.2  86 RRKAATMRERRRLKKVNQAFETLKRCTT-ANPNQRLPKVEILRNAIRYIESLQ 137
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (258 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1355  (0.0530436); expected 510.9 (0.02)
+Passed bias filter:                      864  (0.0338227); expected 510.9 (0.02)
+Passed Vit filter:                        78  (0.00305344); expected 25.5 (0.001)
+Passed Fwd filter:                         5  (0.000195733); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 1.18u 0.80s 00:00:01.98 Elapsed: 00:00:01.37
+# Mc/sec: 766.73
+//
+Query:       NP_001027941.1  [L=207]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.5e-27   96.3   2.7    5.7e-27   95.2   2.7    1.6  1  Basic     Myogenic Basic domain
+    6.1e-15   55.3   3.4      9e-15   54.7   3.4    1.3  1  HLH       Helix-loop-helix DNA-binding domain
+    3.5e-07   31.4   0.7    3.5e-07   31.4   0.7    2.3  1  Myf5      Myogenic determination factor 5
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.2   2.7   6.7e-31   5.7e-27       1      86 []      14     109 ..      14     109 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 95.2 bits;  conditional E-value: 6.7e-31
+           Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrss.............eaeealeehvrapsgeHcaGqCLlWACKiCKrKs 82 
+                     +++y+++c++++d++f+ed++ +rL++ +  llk+++  s++s s ss             ++e   +eh+rapsg+H aG+CLlWACK+CKrK+
+  NP_001027941.1  14 DDFYDDPCFSTSDMHFFEDMD-PRLVHAG--LLKPDDCCSSSSLSPSSssaspssllhihhHTEAEDDEHIRAPSGHHHAGRCLLWACKACKRKT 105
+                     69*******************.***9999..6666664433322221134567788888865555789*************************** PP
+
+           Basic  83 vtmD 86 
+                     +++D
+  NP_001027941.1 106 TNVD 109
+                     **99 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   3.4   1.1e-18     9e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 1.1e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001027941.1 110 RRKAATLRERRRLSKVNEAFETLKRCTN-TNPNQRLPKVEILRNAISYIESLQ 161
+                     89************************99.9**********************8 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.7   4.1e-11   3.5e-07       1      24 [.     177     197 ..     170     201 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 4.1e-11
+            Myf5   1 eeyysLesdSepsSPrSnCSDgma 24 
+                     e+y   ++dS++sSPrSnCSDgm+
+  NP_001027941.1 177 EHY---SGDSDASSPRSNCSDGMV 197
+                     677...*****************7 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (207 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1205  (0.0471717); expected 510.9 (0.02)
+Passed bias filter:                      779  (0.0304952); expected 510.9 (0.02)
+Passed Vit filter:                        58  (0.0022705); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.89u 0.55s 00:00:01.44 Elapsed: 00:00:00.91
+# Mc/sec: 925.45
+//
+Query:       NP_001027942.1  [L=240]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    5.2e-28   98.1   1.8    5.2e-28   98.1   1.8    2.3  1  Myf5      Myogenic determination factor 5
+      9e-15   56.1   0.1    2.4e-14   54.7   0.1    1.7  1  Basic     Myogenic Basic domain
+    9.4e-15   54.7   4.3    1.5e-14   54.0   4.3    1.3  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.1   1.8   6.1e-32   5.2e-28       1      71 []     127     198 ..     127     198 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 98.1 bits;  conditional E-value: 6.1e-32
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yy+L  es Sep+SP SnCSDg ad+nsPvw+++++ ++s yl+++++   ++k++++SSL+CLSsIV+R+
+  NP_001027942.1 127 ESYYGLpgESGSEPGSPLSNCSDGPADSNSPVWQQMNAVYSSGYLYAKNE-ILTDKTAGASSLECLSSIVDRL 198
+                     79*********************************************999.*********************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   0.1   2.8e-18   2.4e-14      48      86 .]      24      67 ..       5      67 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 2.8e-18
+           Basic 48 s.....eaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                           a+++++eh+r p + H++G+CL+WACK+CKrKs  +D
+  NP_001027942.1 24 FgpgveLAGSGEDEHIRVPGAPHQPGHCLPWACKACKRKSNFVD 67
+                    133332344589****************************8776 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   4.3   1.8e-18   1.5e-14       1      53 []      68     119 ..      68     119 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.8e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+afd+Lr++    +++++l K+eiLr Ai+YI +Lq
+  NP_001027942.1  68 RRRAATMRERRRLKKVNHAFDALRRCTS-ANSSQRLPKVEILRNAIQYIESLQ 119
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (240 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       919  (0.0359757); expected 510.9 (0.02)
+Passed bias filter:                      717  (0.0280681); expected 510.9 (0.02)
+Passed Vit filter:                        58  (0.0022705); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.92u 0.52s 00:00:01.44 Elapsed: 00:00:00.87
+# Mc/sec: 1120.77
+//
+Query:       NP_001035151.1  [L=263]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.9e-25   90.3   2.3    4.1e-25   89.2   0.6    2.1  1  Basic     Myogenic Basic domain
+    3.8e-21   76.1   7.9    3.8e-21   76.1   7.9    1.8  1  Myf5      Myogenic determination factor 5
+    9.4e-15   54.7   2.8      2e-14   53.6   2.8    1.6  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.6   4.8e-29   4.1e-25       1      86 []      13      95 ..      13      95 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 4.8e-29
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ++ly+++c+++ d +f++dl+++ L + +   +++ ++   ++e+ + e+e+ +eehvrap g H+aG+CLlWACK+CKrK++++D
+  NP_001035151.1 13 DDLYDDPCFSSGDLNFFDDLDSRLLLKPEG--HQHLHHHVPSAEE-ELEEETVVEEHVRAPGGLHQAGRCLLWACKACKRKTTHAD 95
+                    69*******************655555553..4433333222332.34555689******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   7.9   4.5e-25   3.8e-21       2      71 .]     165     230 ..     160     230 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 4.5e-25
+            Myf5   2 eyysLesdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                      y   ++dSe+sSP+SnCSDg++d+ sP+++s+ ++ ++s  +  ++++ss+k+++vSSL+CLSsIVeRi
+  NP_001035151.1 165 PY---GADSEASSPQSNCSDGAMDYVSPCVTSNAKN-NRSRRNIQTTGDSSSKQCLVSSLECLSSIVERI 230
+                     45...89**********************9999888.444444444579********************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   2.8   2.3e-18     2e-14       1      53 []      96     147 ..      96     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 2.3e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001035151.1  96 RRKAATMRERRRLSKVNDAFETLKRCTA-SNPNQRLAKVEILRNAISYIESLQ 147
+                     89************************99.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (263 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1179  (0.0461538); expected 510.9 (0.02)
+Passed bias filter:                      768  (0.0300646); expected 510.9 (0.02)
+Passed Vit filter:                        56  (0.00219221); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 1.17u 0.58s 00:00:01.75 Elapsed: 00:00:03.35
+# Mc/sec: 319.81
+//
+Query:       NP_001035568.2  [L=318]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.3e-29  103.6   0.3    3.2e-29  102.4   0.3    1.7  1  Basic     Myogenic Basic domain
+    1.6e-26   93.3   5.7    2.9e-26   92.5   5.7    1.4  1  Myf5      Myogenic determination factor 5
+    4.7e-15   55.6   2.6    7.7e-15   54.9   2.6    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.4   0.3   3.7e-33   3.2e-29       1      86 []      27     109 ..      27     109 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 102.4 bits;  conditional E-value: 3.7e-33
+           Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86 
+                     +++y+++c+ +pd rf+edl+ +rL++++a llk++e+   ++ ++    +  ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_001035568.2  27 DDFYDDPCFDSPDLRFFEDLD-PRLVHVGA-LLKPEEHSHFPAAAH-PAPGAREDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 109
+                     69*******************.*******6.777777555555545.3344468******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.5   5.7   3.4e-30   2.9e-26       1      71 []     191     259 ..     191     259 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 92.5 bits;  conditional E-value: 3.4e-30
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssd.ssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+d+++P + +r+++++ ++y+se++ne + +ks++vSSLdCLSsIVeRi
+  NP_001035568.2 191 EHY---SGDSDASSPRSNCSDGMMDYSGPPSGARRRNCYdRTYYSEAPNEPRPGKSAAVSSLDCLSSIVERI 259
+                     799...*************************999999854*******************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.6     9e-19   7.7e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 9e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI  Lq
+  NP_001035568.2 110 RRKAATMRERRRLSKVNEAFETLKRCTS-SNPNQRLPKVEILRNAIRYIEGLQ 161
+                     89************************98.9*********************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (318 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       801  (0.0313564); expected 510.9 (0.02)
+Passed bias filter:                      570  (0.0223136); expected 510.9 (0.02)
+Passed Vit filter:                        51  (0.00199648); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.95u 0.60s 00:00:01.54 Elapsed: 00:00:00.89
+# Mc/sec: 1450.41
+//
+Query:       NP_001079366.1  [L=289]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.6e-26   93.4  11.6    1.6e-26   93.4  11.6    2.0  1  Myf5      Myogenic determination factor 5
+    8.7e-26   91.4   1.4    8.7e-26   91.4   1.4    2.3  1  Basic     Myogenic Basic domain
+    1.6e-14   53.9   4.1    3.9e-14   52.7   4.1    1.7  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4  11.6   1.8e-30   1.6e-26       1      71 []     162     230 ..     158     230 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 1.8e-30
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+d+nsP + sr+++s dss++s+++n+s+ +kssv+SSLdCLSsIVeRi
+  NP_001079366.1 162 EHY---SGDSDASSPRSNCSDGMMDYNSPPCGSRRRNSyDSSFYSDSPNDSRLGKSSVISSLDCLSSIVERI 230
+                     788...***********************99887777636*******************************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   1.4     1e-29   8.7e-26       1      86 []      25      95 ..      25      95 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 1e-29
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++y+++c++++d+ f+edl+ +rL+++   llk++e    + +       + ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_001079366.1 25 DDFYDDPCFNTSDMSFFEDLD-PRLVHVT--LLKPEE----P-H-------HNEDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 95
+                    69*******************.***9999..899999....1.2.......2469*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.7   4.1   4.5e-18   3.9e-14       1      53 []      96     147 ..      96     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 52.7 bits;  conditional E-value: 4.5e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001079366.1  96 RRKAATMRERRRLSKVNEAFETLKRYTS-TNPNQRLPKVEILRNAIRYIESLQ 147
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (289 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       877  (0.0343316); expected 510.9 (0.02)
+Passed bias filter:                      605  (0.0236837); expected 510.9 (0.02)
+Passed Vit filter:                        55  (0.00215306); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.82u 0.60s 00:00:01.42 Elapsed: 00:00:00.82
+# Mc/sec: 1429.94
+//
+Query:       NP_001081292.1  [L=288]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.1e-24   87.8   0.9    1.1e-24   87.8   0.9    2.4  1  Basic     Myogenic Basic domain
+    2.4e-20   73.5  12.8    2.4e-20   73.5  12.8    2.4  1  Myf5      Myogenic determination factor 5
+    1.6e-15   57.1   1.8    2.9e-15   56.3   1.8    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.8   0.9   1.3e-28   1.1e-24       2      86 .]      26      97 ..      25      97 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 87.8 bits;  conditional E-value: 1.3e-28
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ++y+++c++++d+ f+e+le +rL+++   llk++         r+   ee +eehvrapsg+H+aG+CLlWACK+CKrKs+ +D
+  NP_001081292.1 26 HFYDDPCFNSSDMSFFEELE-PRLVHVT--LLKPEG-------PRH---EEEEEEHVRAPSGHHQAGRCLLWACKACKRKSSGAD 97
+                    79******************.***9999..888888.......222...22469***************************9887 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.5  12.8   2.9e-24   2.4e-20       1      71 []     164     229 ..     164     229 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 73.5 bits;  conditional E-value: 2.9e-24
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwss.resssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSP+SnCSDgm   nsP +ss r++s+ds ++++++n+++ +kss++SSLdCLSsIVeRi
+  NP_001081292.1 164 EHY---SGDSDASSPSSNCSDGM---NSPPCSSrRRNSYDSNFYTDSPNDVRLGKSSMISSLDCLSSIVERI 229
+                     799...****************9...56666550555568*******************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   1.8   3.4e-19   2.9e-15       1      53 []      98     149 ..      98     149 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 3.4e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K++iLr Ai+YI +Lq
+  NP_001081292.1  98 RRRAATMRERRRLSKVNDAFETLKRCTS-TNPNQRLPKVDILRNAISYIDSLQ 149
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (288 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       674  (0.0263848); expected 510.9 (0.02)
+Passed bias filter:                      447  (0.0174985); expected 510.9 (0.02)
+Passed Vit filter:                        41  (0.00160501); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.87u 0.50s 00:00:01.37 Elapsed: 00:00:00.81
+# Mc/sec: 1434.66
+//
+Query:       NP_001095249.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.4e-27   95.1  13.0    4.4e-27   95.1  13.0    2.2  1  Myf5      Myogenic determination factor 5
+    4.3e-21   76.3   4.5    2.2e-20   74.0   4.5    2.2  1  Basic     Myogenic Basic domain
+    3.2e-15   56.2   4.0    6.3e-15   55.2   4.0    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.1  13.0   5.2e-31   4.4e-27       1      71 []     143     214 ..     143     214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 95.1 bits;  conditional E-value: 5.2e-31
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yysL  +s++ep+SP S+CSDgm d++sP+ws r+ss+d++y+s+lq+ s s+++ ++SSLdCLSsIV+Ri
+  NP_001095249.1 143 ENYYSLpgQSCTEPGSPMSSCSDGMSDCSSPQWSGRNSSFDNVYCSDLQT-SFSSTKLTLSSLDCLSSIVDRI 214
+                     89************************************************.99*******************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.0   4.5   2.6e-24   2.2e-20       2      86 .]      14      83 ..      13      83 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 74.0 bits;  conditional E-value: 2.6e-24
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     +y++sc+ +p++ ++ed+e + ++ ++a  +k++         +    e+ ++ehvrap g+H+aG+CL+WACK+CKrKs+t+D
+  NP_001095249.1 14 FFYDSSCIPSPEEGYTEDYE-HGMSIYGA--HKKDL--------E----ESDEDEHVRAPIGHHQAGNCLMWACKACKRKSSTTD 83
+                    69******************.88888884..22222........1....12359*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   4.0   7.4e-19   6.3e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 7.4e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001095249.1  84 RRKAATMRERRRLKKVNQAFETLKRCTT-TNPNQRLPKVEILRNAIQYIESLQ 135
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1491  (0.0583676); expected 510.9 (0.02)
+Passed bias filter:                      888  (0.0347622); expected 510.9 (0.02)
+Passed Vit filter:                        67  (0.00262282); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.87u 0.61s 00:00:01.48 Elapsed: 00:00:00.83
+# Mc/sec: 1240.78
+//
+Query:       NP_001117026.1  [L=276]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.6e-26   93.3   5.1    4.1e-26   92.0   5.1    1.7  1  Myf5      Myogenic determination factor 5
+    6.2e-26   91.8   1.6    2.2e-25   90.1   1.6    2.0  1  Basic     Myogenic Basic domain
+    4.1e-15   55.8   2.0    6.5e-15   55.2   2.0    1.3  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.0   5.1   4.8e-30   4.1e-26       6      71 .]     150     222 ..     145     222 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 92.0 bits;  conditional E-value: 4.8e-30
+            Myf5   6 L....esdSepsSPrSnCSDgmadfnsPvwss.resssdssylselqn..esssekssvvSSLdCLSsIVeRi 71 
+                     +    ++dS++sSP+SnCSDgm+d+n P+++s ++s+++ssy+ e++n    s+++++v+SSLdCLS+IVeRi
+  NP_001117026.1 150 MlehySGDSDASSPQSNCSDGMMDYNTPTCTSaTRSNYYSSYFAETPNagARSNKNAAVISSLDCLSNIVERI 222
+                     44555***********************99761556678*********944555567899************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.1   1.6   2.5e-29   2.2e-25       1      86 []      14      84 ..      14      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 90.1 bits;  conditional E-value: 2.5e-29
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++y+++c++++d++f+edl+ +rL++++  llk+++        +    +  ++eh+rapsg+H+aG+CLlWACK+CKrK+++ D
+  NP_001117026.1 14 DDFYDDPCFNTSDMHFFEDLD-PRLVHVG--LLKPDD--------H----HYNEDEHIRAPSGHHQAGRCLLWACKACKRKTTNSD 84
+                    69*******************.*******..899999........1....12469****************************988 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   2.0   7.7e-19   6.5e-15       1      53 []      85     136 ..      85     136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 7.7e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf+ L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001117026.1  85 RRKAATMRERRRLGKVNDAFENLKRCTS-NNPNQRLPKVEILRNAISYIESLQ 136
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (276 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       717  (0.0280681); expected 510.9 (0.02)
+Passed bias filter:                      495  (0.0193776); expected 510.9 (0.02)
+Passed Vit filter:                        39  (0.00152672); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.85u 0.50s 00:00:01.35 Elapsed: 00:00:00.81
+# Mc/sec: 1376.01
+//
+Query:       NP_001117073.1  [L=272]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.6e-27   96.5   7.3    3.8e-27   95.3   7.3    1.7  1  Myf5      Myogenic determination factor 5
+    6.6e-26   91.8   4.6    7.8e-26   91.5   2.2    2.2  1  Basic     Myogenic Basic domain
+    6.4e-15   55.2   2.0    6.4e-15   55.2   2.0    1.7  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.3   7.3   4.5e-31   3.8e-27       1      71 []     152     221 ..     145     221 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 95.3 bits;  conditional E-value: 4.5e-31
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqn.esssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+++n+P+++s ++ss +ssy+ e++n + +s+k++v+SSLdCLSsIVeRi
+  NP_001117073.1 152 EHY---NGDSDASSPRSNCSDGMMEYNAPTCTSARRSSyESSYFAETPNaDARSKKNAVISSLDCLSSIVERI 221
+                     455...9**********************99887766626*********999********************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.5   2.2   9.2e-30   7.8e-26       1      86 []      14      84 ..      14      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.5 bits;  conditional E-value: 9.2e-30
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++y+++c++++d++f+ed++ +rL++++  llk+++        +    ++ ++eh+rapsg+H+aG+CLlWACK+CKrK++++D
+  NP_001117073.1 14 DDFYDDPCFNTSDMHFFEDMD-PRLVHVG--LLKPDD--------H----HHNEDEHIRAPSGHHQAGRCLLWACKACKRKTTNTD 84
+                    69*******************.*******..899999........1....12469*****************************99 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.2   2.0   7.5e-19   6.4e-15       1      53 []      85     136 ..      85     136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.2 bits;  conditional E-value: 7.5e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf+ L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_001117073.1  85 RRKAATMRERRRLGKVNDAFENLKRCTS-NNPNQRLPKVEILRNAISYIESLQ 136
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (272 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       732  (0.0286553); expected 510.9 (0.02)
+Passed bias filter:                      457  (0.01789); expected 510.9 (0.02)
+Passed Vit filter:                        39  (0.00152672); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.85u 0.49s 00:00:01.34 Elapsed: 00:00:00.79
+# Mc/sec: 1398.59
+//
+Query:       NP_001117109.1  [L=276]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    9.5e-28   97.2   4.9    9.5e-28   97.2   4.9    2.1  1  Myf5      Myogenic determination factor 5
+    2.7e-26   93.0   1.7    7.3e-26   91.6   1.7    1.8  1  Basic     Myogenic Basic domain
+    1.4e-15   57.3   2.0    2.7e-15   56.4   2.0    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.2   4.9   1.1e-31   9.5e-28       1      71 []     153     221 ..     147     221 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 97.2 bits;  conditional E-value: 1.1e-31
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     ++y   ++dS++sSPrSnCSDgm+dfn P++  r+++  ds+y++e++n+s+++k+sv+SSLdCLS+IVeRi
+  NP_001117109.1 153 DHY---SGDSDASSPRSNCSDGMMDFNDPSCPPRRRNKyDSIYFNETPNDSRRKKNSVISSLDCLSNIVERI 221
+                     466...9************************866665527*******************************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.6   1.7   8.6e-30   7.3e-26       1      86 []      14      84 ..      14      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.6 bits;  conditional E-value: 8.6e-30
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++y+++c++++d++f+edl+ +rL++++  llk+++        +    ++ ++eh+rapsg+H+aG+CLlWACK+CKrK++++D
+  NP_001117109.1 14 DDFYDDPCFNTSDMHFFEDLD-PRLVHVG--LLKPDD--------H----HHKGDEHIRAPSGHHQAGRCLLWACKACKRKTTNAD 84
+                    69*******************.*******..899999........1....22479*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   2.0   3.2e-19   2.7e-15       1      53 []      85     136 ..      85     136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 3.2e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K++iLr Ai+YI +Lq
+  NP_001117109.1  85 RRKAATMRERRRLSKVNDAFETLKRCTS-TNPNQRLPKVDILRNAISYIESLQ 136
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (276 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       684  (0.0267763); expected 510.9 (0.02)
+Passed bias filter:                      491  (0.019221); expected 510.9 (0.02)
+Passed Vit filter:                        42  (0.00164416); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.85u 0.49s 00:00:01.34 Elapsed: 00:00:00.79
+# Mc/sec: 1414.55
+//
+Query:       NP_001117116.1  [L=239]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    5.9e-18   65.9   3.2    1.5e-17   64.5   3.2    1.7  1  Myf5      Myogenic determination factor 5
+    2.9e-15   57.7   0.6    7.6e-15   56.3   0.3    1.9  1  Basic     Myogenic Basic domain
+      2e-14   53.6   4.2      4e-14   52.6   4.2    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   64.5   3.2   1.8e-21   1.5e-17       1      71 []     126     198 ..     126     198 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 64.5 bits;  conditional E-value: 1.8e-21
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPv.wssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yy+L  es+Sep+SP+S+ SD+m+d+n Pv w ++++s+ + y+++++  ss e+ +++SSL  LS+IV+R+
+  NP_001117116.1 126 ENYYGLpgESSSEPGSPSSSRSDSMVDCNIPVvWPQMNTSYGNNYSYTKNV-SSGERGAGASSLARLSNIVDRL 198
+                     89****************************954999999999999988776.999******************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.3   0.3     9e-19   7.6e-15      51      86 .]      31      66 ..       4      66 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 56.3 bits;  conditional E-value: 9e-19
+           Basic 51 eealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ++ ++ehvr p + H+aG+CL WACK+CKrKs+t+D
+  NP_001117116.1 31 GSEEDEHVRVPGTPHQAGHCLQWACKACKRKSSTVD 66
+                    33679*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.6   4.2   4.7e-18     4e-14       1      53 []      67     118 ..      67     118 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 52.6 bits;  conditional E-value: 4.7e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N++f++Lr++    +++++l K+eiLr Ai+YI +Lq
+  NP_001117116.1  67 RRRAATMRERRRLRKVNHGFEALRRCTS-ANHSQRLPKVEILRNAIQYIESLQ 118
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (239 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       976  (0.0382071); expected 510.9 (0.02)
+Passed bias filter:                      658  (0.0257585); expected 510.9 (0.02)
+Passed Vit filter:                        41  (0.00160501); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.88u 0.46s 00:00:01.34 Elapsed: 00:00:00.78
+# Mc/sec: 1234.41
+//
+Query:       NP_002469.2  [L=320]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.7e-29  102.6   0.2      7e-29  101.3   0.2    1.7  1  Basic     Myogenic Basic domain
+    7.1e-26   91.2   5.0    1.5e-25   90.2   5.0    1.5  1  Myf5      Myogenic determination factor 5
+    4.7e-15   55.6   2.6    7.8e-15   54.9   2.6    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.3   0.2   8.2e-33     7e-29       1      86 []      27     109 ..      27     109 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 101.3 bits;  conditional E-value: 8.2e-33
+        Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86 
+                  +++y+++c+ +pd rf+edl+ +rL +++a llk++e+   ++  +    +  ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_002469.2  27 DDFYDDPCFDSPDLRFFEDLD-PRLMHVGA-LLKPEEHSHFPAAVH-PAPGAREDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 109
+                  69*******************.*******5.777777565555555.3344468******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.2   5.0   1.7e-29   1.5e-25       1      71 []     191     259 ..     191     259 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 90.2 bits;  conditional E-value: 1.7e-29
+         Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssd.ssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+y   ++dS++sSPrSnCSDgm+d+++P + +r+++++   y++e+++e + +ks++vSSLdCLSsIVeRi
+  NP_002469.2 191 EHY---SGDSDASSPRSNCSDGMMDYSGPPSGARRRNCYeGAYYNEAPSEPRPGKSAAVSSLDCLSSIVERI 259
+                  799...*************************99999996599*****************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.6   9.1e-19   7.8e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 9.1e-19
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI  Lq
+  NP_002469.2 110 RRKAATMRERRRLSKVNEAFETLKRCTS-SNPNQRLPKVEILRNAIRYIEGLQ 161
+                  89************************98.9*********************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (320 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       839  (0.032844); expected 510.9 (0.02)
+Passed bias filter:                      566  (0.022157); expected 510.9 (0.02)
+Passed Vit filter:                        52  (0.00203562); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.88u 0.56s 00:00:01.44 Elapsed: 00:00:00.82
+# Mc/sec: 1573.70
+//
+Query:       NP_005584.2  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.3e-28   99.2  10.2    2.3e-28   99.2  10.2    1.8  1  Myf5      Myogenic determination factor 5
+    4.8e-21   76.2   3.4    3.4e-20   73.4   3.4    2.4  1  Basic     Myogenic Basic domain
+      5e-15   55.5   4.7      9e-15   54.7   4.7    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.2  10.2   2.7e-32   2.3e-28       1      71 []     143     214 ..     143     214 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 99.2 bits;  conditional E-value: 2.7e-32
+         Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+yysL  +s+Sep+SP+SnCSDgm ++nsPvws+++s++ds+y+++++n +++++++++SSLdCLS+IV+Ri
+  NP_005584.2 143 ENYYSLpgQSCSEPTSPTSNCSDGMPECNSPVWSRKSSTFDSIYCPDVSN-VYATDKNSLSSLDCLSNIVDRI 214
+                  89************************************************.666677789************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.4   3.4     4e-24   3.4e-20       2      86 .]      14      83 ..      13      83 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 73.4 bits;  conditional E-value: 4e-24
+        Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                  +y+ sc+ +p+ +f +++  +r+++++a+   + e   l+        ++ ++ehvrap+g+H+aG+CL+WACK+CKrKs+tmD
+  NP_005584.2 14 YFYDGSCIPSPEGEFGDEFV-PRVAAFGAH---KAE---LQ--------GSDEDEHVRAPTGHHQAGHCLMWACKACKRKSTTMD 83
+                 79**************8888.999999953...222...11........12359******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   4.7   1.1e-18     9e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 1.1e-18
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR +++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_005584.2  84 RRKAATMRERRRLKKVNQAFETLKRCTT-TNPNQRLPKVEILRNAIRYIESLQ 135
+                  89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1427  (0.0558622); expected 510.9 (0.02)
+Passed bias filter:                      843  (0.0330006); expected 510.9 (0.02)
+Passed Vit filter:                        77  (0.00301429); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.88u 0.51s 00:00:01.39 Elapsed: 00:00:00.80
+# Mc/sec: 1293.55
+//
+Query:       NP_032682.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.1e-28  100.3  13.6    2.5e-28   99.1  13.6    1.7  1  Myf5      Myogenic determination factor 5
+      8e-22   78.7   3.9    5.3e-21   76.0   3.9    2.4  1  Basic     Myogenic Basic domain
+      5e-15   55.5   4.7      9e-15   54.7   4.7    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.1  13.6     3e-32   2.5e-28       1      71 []     143     214 ..     143     214 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 99.1 bits;  conditional E-value: 3e-32
+         Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+yysL  +s+Sep+SP+SnCSDgm ++nsPvws+++ss+ds+y+++++n   + ++s+vSSLdCLSsIV+Ri
+  NP_032682.1 143 ENYYSLpgQSCSEPTSPTSNCSDGMPECNSPVWSRKNSSFDSIYCPDVSN-ACAADKSSVSSLDCLSSIVDRI 214
+                  89************************************************.666777889************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.0   3.9   6.2e-25   5.3e-21       2      86 .]      14      83 ..      13      83 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 76.0 bits;  conditional E-value: 6.2e-25
+        Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                  +ye sc+ +p+ +f +++e +r+++++a+     e   l++        +  eehvrap+g+H+aG+CL+WACK+CKrKs+tmD
+  NP_032682.1 14 YFYEGSCIPSPEDEFGDQFE-PRVAAFGAHK---AE---LQG--------SDDEEHVRAPTGHHQAGHCLMWACKACKRKSTTMD 83
+                 79**************9999.***9999532...22...111........2349******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   4.7   1.1e-18     9e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 1.1e-18
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR +++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_032682.1  84 RRKAATMRERRRLKKVNQAFETLKRCTT-TNPNQRLPKVEILRNAIRYIESLQ 135
+                  89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1512  (0.0591897); expected 510.9 (0.02)
+Passed bias filter:                      830  (0.0324917); expected 510.9 (0.02)
+Passed Vit filter:                        75  (0.002936); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.87u 0.55s 00:00:01.42 Elapsed: 00:00:00.79
+# Mc/sec: 1300.57
+//
+Query:       NP_034996.2  [L=318]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.3e-29  102.4   0.2    9.2e-29  100.9   0.2    1.8  1  Basic     Myogenic Basic domain
+    8.2e-26   91.1   5.1    1.7e-25   90.0   5.1    1.6  1  Myf5      Myogenic determination factor 5
+    4.9e-15   55.6   2.6    7.7e-15   54.9   2.6    1.3  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.9   0.2   1.1e-32   9.2e-29       1      86 []      27     109 ..      27     109 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 100.9 bits;  conditional E-value: 1.1e-32
+        Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86 
+                  +++y+++c+ +pd rf+edl+ +rL++++a llk++e++  ++  +  + +  ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_034996.2  27 DDFYDDPCFDSPDLRFFEDLD-PRLVHMGA-LLKPEEHAHFPTAVH-PGPGAREDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 109
+                  69*******************.*******5.888888666555544.5555678******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.0   5.1     2e-29   1.7e-25       1      71 []     190     258 ..     190     258 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 90.0 bits;  conditional E-value: 2e-29
+         Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvws.sresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+y   ++dS++sSPrSnCSDgm+d+++P +  +r++ +d+ y+se++ es+ +ks++vSSLdCLSsIVeRi
+  NP_034996.2 190 EHY---SGDSDASSPRSNCSDGMMDYSGPPSGpRRQNGYDTAYYSEAARESRPGKSAAVSSLDCLSSIVERI 258
+                  799...**********************988615556668*******************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.6     9e-19   7.7e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 9e-19
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI  Lq
+  NP_034996.2 110 RRKAATMRERRRLSKVNEAFETLKRCTS-SNPNQRLPKVEILRNAIRYIEGLQ 161
+                  89************************98.9*********************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (318 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       811  (0.0317479); expected 510.9 (0.02)
+Passed bias filter:                      575  (0.0225093); expected 510.9 (0.02)
+Passed Vit filter:                        53  (0.00207477); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.85u 0.52s 00:00:01.37 Elapsed: 00:00:00.78
+# Mc/sec: 1658.30
+//
+Query:       NP_571337.2  [L=275]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+      1e-29  103.6   5.6      1e-29  103.6   5.6    2.0  1  Myf5      Myogenic determination factor 5
+    1.7e-26   93.6   3.8    3.1e-26   92.8   2.0    2.4  1  Basic     Myogenic Basic domain
+    1.9e-15   56.9   2.4    3.6e-15   56.0   2.4    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.6   5.6   1.2e-33     1e-29       1      71 []     151     220 ..     144     220 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 103.6 bits;  conditional E-value: 1.2e-33
+         Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqn.esssekssvvSSLdCLSsIVeRi 71 
+                  e+y   ++dS++sSPrSnCSDgm+df++P++++r+++s dssy+++++n + +++k+svvSSLdCLSsIVeRi
+  NP_571337.2 151 EHY---SGDSDASSPRSNCSDGMMDFMGPTCQTRRRNSyDSSYFNDTPNaDARNNKNSVVSSLDCLSSIVERI 220
+                  566...**************************99988736*********99*********************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.8   2.0   3.6e-30   3.1e-26       1      86 []      14      84 ..      14      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 92.8 bits;  conditional E-value: 3.6e-30
+        Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                 +++y+++c++++d++f+edl+ +rL++++  llk++e        +    ++ ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_571337.2 14 DDFYDDPCFNTNDMHFFEDLD-PRLVHVS--LLKPDE--------H----HHIEDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 84
+                 69*******************.*****99..899999........1....22469*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.0   2.4   4.3e-19   3.6e-15       1      53 []      85     136 ..      85     136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 56.0 bits;  conditional E-value: 4.3e-19
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_571337.2  85 RRKAATMRERRRLSKVNDAFETLKRCTS-TNPNQRLPKVEILRNAISYIESLQ 136
+                  89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (275 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       816  (0.0319436); expected 510.9 (0.02)
+Passed bias filter:                      489  (0.0191427); expected 510.9 (0.02)
+Passed Vit filter:                        39  (0.00152672); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.82u 0.49s 00:00:01.31 Elapsed: 00:00:00.77
+# Mc/sec: 1455.70
+//
+Query:       NP_571651.1  [L=237]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.5e-26   91.9   9.1    4.5e-26   91.9   9.1    2.4  1  Myf5      Myogenic determination factor 5
+      1e-15   59.1   1.3    3.1e-15   57.5   0.4    2.3  1  Basic     Myogenic Basic domain
+    6.4e-15   55.2   4.2    1.2e-14   54.3   4.2    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.9   9.1   5.2e-30   4.5e-26       1      71 []     127     199 ..     127     199 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 91.9 bits;  conditional E-value: 5.2e-30
+         Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+yysL  es+Sep+SP+S+CS +m+d+nsPvw ++++++ +sy  ++qn s+ e++ +vSSL+CLSsIV+R+
+  NP_571651.1 127 EQYYSLpmESSSEPASPSSSCSESMVDCNSPVWPQMNQNYGNSYNFDAQNASTMERTPGVSSLQCLSSIVDRL 199
+                  89**********************************************************************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.5   0.4   3.7e-19   3.1e-15      46      86 .]      29      67 ..       4      67 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 57.5 bits;  conditional E-value: 3.7e-19
+        Basic 46 rsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                 +   +++ ++ehvrap + H++G+CL WACK+CKrK++t+D
+  NP_571651.1 29 E--LTGSEEDEHVRAPGAPHQPGHCLQWACKACKRKASTVD 67
+                 2..2234679****************************998 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   4.2   1.4e-18   1.2e-14       1      53 []      68     119 ..      68     119 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 1.4e-18
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR +++N+af++Lr++    +p+++l K+eiLr Ai+YI +Lq
+  NP_571651.1  68 RRRAATMRERRRLKKVNHAFEALRRCTS-ANPSQRLPKVEILRNAIQYIESLQ 119
+                  89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (237 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1216  (0.0476023); expected 510.9 (0.02)
+Passed bias filter:                      751  (0.0293991); expected 510.9 (0.02)
+Passed Vit filter:                        73  (0.0028577); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.83u 0.53s 00:00:01.36 Elapsed: 00:00:00.79
+# Mc/sec: 1217.41
+//
+Query:       NP_776541.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.1e-28   98.4  13.0    4.1e-28   98.4  13.0    1.8  1  Myf5      Myogenic determination factor 5
+    1.2e-22   81.3   3.0    7.1e-22   78.8   3.0    2.3  1  Basic     Myogenic Basic domain
+    2.4e-15   56.5   4.2    4.5e-15   55.7   4.2    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.4  13.0   4.9e-32   4.1e-28       1      71 []     143     214 ..     143     214 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 98.4 bits;  conditional E-value: 4.9e-32
+         Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+yysL  +s+Sep+SP+S+CSDgm ++nsP+ws+++ss+ds+y+++++n ++++++s++SSLdCLSsIV+Ri
+  NP_776541.1 143 ENYYSLpgQSCSEPTSPTSSCSDGMPECNSPIWSRKSSSFDSVYCPDVPN-VYATDKSSLSSLDCLSSIVDRI 214
+                  89************************************************.677777889************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.8   3.0   8.4e-26   7.1e-22       2      86 .]      14      83 ..      13      83 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 78.8 bits;  conditional E-value: 8.4e-26
+        Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                  +y+ sc+ +pd +f +++e +r+++++a  +k +     +        ++ ++ehvrap+g+H+aG+CL+WACK+CKrKs+tmD
+  NP_776541.1 14 YFYDGSCIPSPDGEFGDEFE-PRVAAFGA--HKADL----Q--------GSDEDEHVRAPTGHHQAGHCLMWACKACKRKSTTMD 83
+                 79******************.***99995..32222....1........12359******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   4.2   5.3e-19   4.5e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 5.3e-19
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR +++N+afd+L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_776541.1  84 RRKAATMRERRRLKKVNQAFDTLKRCTT-TNPNQRLPKVEILRNAIRYIESLQ 135
+                  89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1354  (0.0530045); expected 510.9 (0.02)
+Passed bias filter:                      822  (0.0321785); expected 510.9 (0.02)
+Passed Vit filter:                        58  (0.0022705); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.83u 0.50s 00:00:01.33 Elapsed: 00:00:00.79
+# Mc/sec: 1306.75
+//
+Query:       NP_988932.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.4e-28   98.3  11.8    4.4e-28   98.3  11.8    2.1  1  Myf5      Myogenic determination factor 5
+    1.3e-21   78.0   5.0    6.9e-21   75.7   5.0    2.2  1  Basic     Myogenic Basic domain
+    2.9e-15   56.3   4.4    5.7e-15   55.4   4.4    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.3  11.8   5.2e-32   4.4e-28       1      71 []     143     214 ..     143     214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 98.3 bits;  conditional E-value: 5.2e-32
+         Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+yysL  +s++ep+SP+S+CSDgm+d++sP+ws r+ss+d++y+s+lq+ s s+++ ++SSLdCLSsIV+Ri
+  NP_988932.1 143 ENYYSLpgQSCTEPGSPTSSCSDGMTDCSSPQWSGRNSSFDNVYCSDLQT-SFSSTKLTLSSLDCLSSIVDRI 214
+                  89************************************************.99*******************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   75.7   5.0   8.1e-25   6.9e-21       2      86 .]      14      83 ..      13      83 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 75.7 bits;  conditional E-value: 8.1e-25
+        Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                  +y++sc+ +p++ ++ed+e + ++ ++a  +k++         +    e+ ++ehvrap g+H+aG+CL+WACK+CKrKs+tmD
+  NP_988932.1 14 FFYDSSCIPSPEEGYTEDYE-HGMSLYGA--HKKDL--------Q----ESDEDEHVRAPIGHHQAGNCLMWACKACKRKSSTMD 83
+                 69******************.77777774..22222........1....12359******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   4.4   6.7e-19   5.7e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 6.7e-19
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR +++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_988932.1  84 RRKAATMRERRRLKKVNQAFETLKRCTT-TNPNQRLPKVEILRNAIKYIESLQ 135
+                  89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1535  (0.06009); expected 510.9 (0.02)
+Passed bias filter:                      869  (0.0340184); expected 510.9 (0.02)
+Passed Vit filter:                        73  (0.0028577); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.84u 0.58s 00:00:01.42 Elapsed: 00:00:00.79
+# Mc/sec: 1301.66
+//
+Query:       NP_988972.1  [L=288]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    5.1e-26   92.1   2.2    9.2e-26   91.3   1.4    1.9  1  Basic     Myogenic Basic domain
+    1.3e-25   90.4   8.4    1.3e-25   90.4   8.4    1.9  1  Myf5      Myogenic determination factor 5
+    5.5e-15   55.4   3.8    1.2e-14   54.3   3.8    1.6  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.3   1.4   1.1e-29   9.2e-26       1      86 []      25      95 ..      25      95 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.3 bits;  conditional E-value: 1.1e-29
+        Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                 +++y+++c++++d+ f+edl+ +rL+++   llk+++    + +       + ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_988972.1 25 DDFYDDPCFNTSDMSFFEDLD-PRLVHVA--LLKPED----P-H-------HNEDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 95
+                 69*******************.***9999..899998....1.2.......2469*****************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.4   8.4   1.6e-29   1.3e-25       1      71 []     162     229 ..     157     229 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 90.4 bits;  conditional E-value: 1.6e-29
+         Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+y   ++dS++sSPrSnCSDgm+d++ P+ s+r++s+dss++s+++n+ + +kssv+SSLdCLSsIVeRi
+  NP_988972.1 162 EHY---SGDSDASSPRSNCSDGMTDYSPPCGSRRRNSYDSSFYSDSPNGLRLGKSSVISSLDCLSSIVERI 229
+                  788...****************************************************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   3.8   1.4e-18   1.2e-14       1      53 []      96     147 ..      96     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 1.4e-18
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_988972.1  96 RRKAATMRERRRLSKVNEAFETLKRCTS-TNPNQRLPKVEILRNAIRYIESLQ 147
+                  89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (288 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       780  (0.0305344); expected 510.9 (0.02)
+Passed bias filter:                      552  (0.0216089); expected 510.9 (0.02)
+Passed Vit filter:                        50  (0.00195733); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.77u 0.59s 00:00:01.36 Elapsed: 00:00:00.79
+# Mc/sec: 1479.31
+//
+Query:       NP_989545.3  [L=299]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    9.4e-29  100.9   1.8    9.4e-29  100.9   1.8    1.9  1  Basic     Myogenic Basic domain
+    6.3e-27   94.6  10.0    6.3e-27   94.6  10.0    2.3  1  Myf5      Myogenic determination factor 5
+    6.7e-15   55.1   3.8    1.3e-14   54.2   3.8    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.9   1.8   1.1e-32   9.4e-29       1      86 []      21     101 ..      21     101 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 100.9 bits;  conditional E-value: 1.1e-32
+        Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86 
+                  +++y+++c++++d++f+edl+ +rL++++  llk++e++   +++   + +  +eehvrapsg+H+aG+CLlWACK+CKrK++++D
+  NP_989545.3  21 DDFYDDPCFNTSDMHFFEDLD-PRLVHVGG-LLKPEEHPHHHGHH---HGNPHEEEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 101
+                  69*******************.*******6.88888855544332...333468******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.6  10.0   7.4e-31   6.3e-27       1      71 []     168     236 ..     162     236 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 94.6 bits;  conditional E-value: 7.4e-31
+         Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                  e+y   +++S++sSPrSnCSDgm+++++P +ssr+++s dssy++e++n+ +++kssvvSSLdCLSsIVeRi
+  NP_989545.3 168 EHY---SGESDASSPRSNCSDGMMEYSGPPCSSRRRNSyDSSYYTESPNDPKHGKSSVVSSLDCLSSIVERI 236
+                  678...***********************99988887736*******************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.2   3.8   1.5e-18   1.3e-14       1      53 []     102     153 ..     102     153 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.2 bits;  conditional E-value: 1.5e-18
+          HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                  rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  NP_989545.3 102 RRKAATMRERRRLSKVNEAFETLKRCTS-TNPNQRLPKVEILRNAIRYIESLQ 153
+                  89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (299 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       997  (0.0390292); expected 510.9 (0.02)
+Passed bias filter:                      598  (0.0234097); expected 510.9 (0.02)
+Passed Vit filter:                        48  (0.00187904); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.90u 0.54s 00:00:01.44 Elapsed: 00:00:00.81
+# Mc/sec: 1501.13
+//
+Query:       XP_004069479.1  [L=297]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.3e-29  102.3   1.1    9.3e-29  100.9   1.1    1.8  1  Basic     Myogenic Basic domain
+    4.7e-27   95.0   4.4    4.7e-27   95.0   4.4    2.8  1  Myf5      Myogenic determination factor 5
+    3.9e-15   55.9   2.6    6.6e-15   55.1   2.6    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.9   1.1   1.1e-32   9.3e-29       1      86 []      14     109 ..      14     109 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 100.9 bits;  conditional E-value: 1.1e-32
+           Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesr.ss............eaeealeehvrapsgeHcaGqCLlWACKiCKrKs 82 
+                     +++y+++c++++d++f+edl+ +rL++ +  llk+++s s++s+s  ss             ae   +ehvrapsg+H+aG+CLlWACK+CKrK+
+  XP_004069479.1  14 DDFYDDPCFNTSDMHFFEDLD-PRLVHGG--LLKPDDSSSSPSSSPcSSssspssvlhvhqRAEVEDDEHVRAPSGHHQAGRCLLWACKACKRKT 105
+                     69*******************.***9998..677777665444443222567889999986444588**************************** PP
+
+           Basic  83 vtmD 86 
+                     +++D
+  XP_004069479.1 106 TNAD 109
+                     **98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   95.0   4.4   5.5e-31   4.7e-27       1      71 []     177     247 ..     177     247 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 95.0 bits;  conditional E-value: 5.5e-31
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssd..ssylselqn.esssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+dfn+P ++++++ s+   sy+se+ n ++++++ssvvSSLdCLSsIVeRi
+  XP_004069479.1 177 EHY---SGDSDASSPRSNCSDGMTDFNGPRCQTTQKGSYdgGSYFSEALNgGHRNDRSSVVSSLDCLSSIVERI 247
+                     799...****************************998844799*****9999*********************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.1   2.6   7.8e-19   6.6e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.1 bits;  conditional E-value: 7.8e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++    +p+++l K+eiLr Ai+YI +Lq
+  XP_004069479.1 110 RRKAATLRERRRLSKVNDAFETLKRCTS-ANPNQRLPKVEILRNAISYIESLQ 161
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (297 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       880  (0.034449); expected 510.9 (0.02)
+Passed bias filter:                      518  (0.0202779); expected 510.9 (0.02)
+Passed Vit filter:                        37  (0.00144842); expected 25.5 (0.001)
+Passed Fwd filter:                         5  (0.000195733); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.80u 0.49s 00:00:01.29 Elapsed: 00:00:00.76
+# Mc/sec: 1591.78
+//
+Query:       XP_011489557.1  [L=240]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    6.1e-27   94.7   5.7    6.1e-27   94.7   5.7    2.2  1  Myf5      Myogenic determination factor 5
+    7.3e-15   55.0   4.2    1.2e-14   54.3   4.2    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+    5.9e-14   53.4   3.3    6.5e-14   53.3   1.4    2.1  1  Basic     Myogenic Basic domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.7   5.7   7.2e-31   6.1e-27       1      71 []     127     198 ..     127     198 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 94.7 bits;  conditional E-value: 7.2e-31
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e++y+L  es+Sep+SP S+CSDgma  +sPvw++ +++++ssy++++++ s ++k++++SSL+CLSsIV+R+
+  XP_011489557.1 127 ENFYGLpgESSSEPGSPLSSCSDGMAGGSSPVWQQLNANYSSSYSYTKNE-SLDNKTAGASSLECLSSIVDRL 198
+                     89********************************************9999.*********************7 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   4.2   1.4e-18   1.2e-14       1      53 []      68     119 ..      68     119 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 1.4e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+af++Lr++    +p+++l K+eiLr Ai+YI +Lq
+  XP_011489557.1  68 RRRAATMRERRRLKKVNHAFEALRRCTS-ANPSQRLPKVEILRNAIQYIESLQ 119
+                     89************************88.9**********************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   1.4   7.6e-18   6.5e-14      50      86 .]      31      67 ..       6      67 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 7.6e-18
+           Basic 50 aeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++ ++ehvr p + H++G+CL WACK+CKrKs+ +D
+  XP_011489557.1 31 TGSEEDEHVRVPGAPHQPGHCLQWACKACKRKSSFVD 67
+                    334679***************************9877 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (240 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1010  (0.0395381); expected 510.9 (0.02)
+Passed bias filter:                      729  (0.0285379); expected 510.9 (0.02)
+Passed Vit filter:                        56  (0.00219221); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.83u 0.50s 00:00:01.33 Elapsed: 00:00:00.79
+# Mc/sec: 1237.25
+//
+Query:       XP_014008915.2  [L=239]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+      5e-23   82.1   6.3      5e-23   82.1   6.3    2.0  1  Myf5      Myogenic determination factor 5
+    3.7e-15   57.3   0.9      8e-15   56.2   0.4    1.9  1  Basic     Myogenic Basic domain
+    6.2e-15   55.2   3.0    1.1e-14   54.4   3.0    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.1   6.3   5.8e-27     5e-23       1      71 []     126     198 ..     126     198 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 82.1 bits;  conditional E-value: 5.8e-27
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPv.wssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yy+L  es+Sep+SP+S+CSD+m+d+nsPv w ++++s+ + y+++++  ss e+ +++SSL CLS+IV+R+
+  XP_014008915.2 126 ENYYGLpgESSSEPGSPSSSCSDSMVDCNSPVvWPQMNTSFGNNYSYTKNV-SSGERGAGASSLACLSNIVDRL 198
+                     89*****************************559*******9999998776.999******************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.2   0.4   9.4e-19     8e-15      51      86 .]      31      66 ..       5      66 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 56.2 bits;  conditional E-value: 9.4e-19
+           Basic 51 eealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ++ ++ehvr p + H+aG+CL WACK+CKrKs+t+D
+  XP_014008915.2 31 GSEEDEHVRVPGAPHQAGHCLQWACKACKRKSSTVD 66
+                    33679*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.4   3.0   1.3e-18   1.1e-14       1      53 []      67     118 ..      67     118 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.4 bits;  conditional E-value: 1.3e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N++f++Lr++    +p+++l K+eiLr Ai+YI +Lq
+  XP_014008915.2  67 RRRAATMRERRRLKKVNHGFEALRRCTS-ANPSQRLPKVEILRNAIQYIESLQ 118
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (239 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       929  (0.0363672); expected 510.9 (0.02)
+Passed bias filter:                      643  (0.0251713); expected 510.9 (0.02)
+Passed Vit filter:                        39  (0.00152672); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.86u 0.52s 00:00:01.38 Elapsed: 00:00:00.81
+# Mc/sec: 1189.83
+//
+Query:       XP_014032073.1  [L=276]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    8.9e-28   97.3   4.7    8.9e-28   97.3   4.7    2.1  1  Myf5      Myogenic determination factor 5
+    3.2e-26   92.8   2.3    8.7e-26   91.4   2.3    1.8  1  Basic     Myogenic Basic domain
+    1.3e-15   57.4   2.0    2.7e-15   56.4   2.0    1.6  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.3   4.7     1e-31   8.9e-28       1      71 []     153     221 ..     147     221 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 97.3 bits;  conditional E-value: 1e-31
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresss.dssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     ++y   ++dS++sSPrSnCSDgm+dfn P++  r+++  ds+y++e++n+s+++k+sv+SSLdCLS+IVeRi
+  XP_014032073.1 153 DHY---SGDSDASSPRSNCSDGMMDFNDPSCPPRRRNKyDSIYFNETPNDSRHKKNSVISSLDCLSNIVERI 221
+                     466...9************************866665527*******************************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.4   2.3     1e-29   8.7e-26       1      86 []      14      84 ..      14      84 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 91.4 bits;  conditional E-value: 1e-29
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    +++y+++c++++d++f+edl+ +rL++++  llk+++        +    ++ ++eh+rapsg+H+aG+CLlWACK+CKrK++++D
+  XP_014032073.1 14 DDFYDDPCFNTSDMHFFEDLD-PRLVHVG--LLKPDD--------H----HHKEDEHIRAPSGHHQAGRCLLWACKACKRKTTNAD 84
+                    69*******************.*******..899999........1....12469*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   56.4   2.0   3.2e-19   2.7e-15       1      53 []      85     136 ..      85     136 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 56.4 bits;  conditional E-value: 3.2e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K++iLr Ai+YI +Lq
+  XP_014032073.1  85 RRKAATMRERRRLSKVNDAFETLKRCTS-TNPNQRLPKVDILRNAISYIESLQ 136
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (276 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       701  (0.0274418); expected 510.9 (0.02)
+Passed bias filter:                      495  (0.0193776); expected 510.9 (0.02)
+Passed Vit filter:                        43  (0.0016833); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.86u 0.45s 00:00:01.31 Elapsed: 00:00:00.77
+# Mc/sec: 1449.49
+//
+Query:       XP_018111522.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    6.9e-27   94.5  11.6    6.9e-27   94.5  11.6    2.1  1  Myf5      Myogenic determination factor 5
+    7.8e-22   78.7   4.4    3.2e-21   76.7   4.4    2.1  1  Basic     Myogenic Basic domain
+    2.8e-15   56.4   3.8    5.5e-15   55.4   3.8    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.5  11.6     8e-31   6.9e-27       1      71 []     143     214 ..     143     214 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 94.5 bits;  conditional E-value: 8e-31
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yysL  +s++ p+SP+S+CSDgm+d++sP+ws r+ss+d++y+s+lq+ s s+++ ++SSLdCLSsIV+Ri
+  XP_018111522.1 143 ENYYSLpgQSCTVPGSPTSSCSDGMTDCSSPQWSGRNSSFDNVYCSDLQT-SFSSTKLTLSSLDCLSSIVDRI 214
+                     89************************************************.99*******************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.7   4.4   3.8e-25   3.2e-21       2      86 .]      14      83 ..      13      83 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 76.7 bits;  conditional E-value: 3.8e-25
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     +y++sc+ +p++ ++ed+e + ++ ++++   +++        +    e+ ++ehvrap g+H+aG+CL+WACK+CKrKs+tmD
+  XP_018111522.1 14 FFYDSSCIPSPEEGYTEDYE-HGMSLYGQH---KKD-------LQ----ESDEDEHVRAPIGHHQAGNCLMWACKACKRKSSTMD 83
+                    69******************.777777742...222.......11....12359******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.4   3.8   6.5e-19   5.5e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.4 bits;  conditional E-value: 6.5e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+af++L+++   ++p+++l K++iLr Ai+YI +Lq
+  XP_018111522.1  84 RRKAATMRERRRLKKVNHAFETLKRCTS-TNPNQRLPKVDILRNAIKYIESLQ 135
+                     89************************98.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1370  (0.0536308); expected 510.9 (0.02)
+Passed bias filter:                      821  (0.0321394); expected 510.9 (0.02)
+Passed Vit filter:                        56  (0.00219221); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.89u 0.51s 00:00:01.40 Elapsed: 00:00:00.80
+# Mc/sec: 1288.06
+//
+Query:       XP_023807068.1  [L=263]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.2e-22   81.3   3.1    1.2e-22   81.3   1.1    2.0  1  Basic     Myogenic Basic domain
+    2.4e-15   56.6   2.2    4.8e-15   55.6   2.2    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+    9.3e-08   33.2  14.5    4.3e-06   27.9  14.5    2.8  1  Myf5      Myogenic determination factor 5
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.3   1.1   1.4e-26   1.2e-22       3      86 .]      16      91 ..      14      91 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 81.3 bits;  conditional E-value: 1.4e-26
+           Basic  3 lyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ly+ +c+ ++d++f+edl+ +rL++ +  llk ++ ++ +   +   ae  +++hvrap g H+aG+CLlWACK+CKrK++++D
+  XP_023807068.1 16 LYD-PCFATSDMNFFEDLD-TRLSHSS--LLKTED-QGHCLVPT---AEGEEDQHVRAPGGPHQAGHCLLWACKACKRKTTHAD 91
+                    665.9**************.***9999..555554.33443322...334579*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.6   2.2   5.6e-19   4.8e-15       1      53 []      92     143 ..      92     143 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 55.6 bits;  conditional E-value: 5.6e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_023807068.1  92 RRKAATMRERRRLSKVNNAFETLKRCTV-SNPSQRLPKVEILRNAISYIESLQ 143
+                     89************************77.7**********************8 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9  14.5     5e-10   4.3e-06       7      71 .]     162     238 ..     156     238 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 27.9 bits;  conditional E-value: 5e-10
+            Myf5   7 esdSepsSPrSnCSDgma......dfnsPvwssresss...dssylselqn...esssekssvvSSLdCLSsIVeRi 71 
+                     +s+S++sSPrS  SDg +        n  +  + e+ +   +   ++++q+    sss k+s++SSLdCLS+IVeRi
+  XP_023807068.1 162 SSESDTSSPRSTSSDGTVwgghhvVLNTYTTPKGEMDFihlSCARIENKQTadsCSSSRKTSLISSLDCLSNIVERI 238
+                     9**************98622211112333333334444322333333333343456788999**************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (263 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1161  (0.0454492); expected 510.9 (0.02)
+Passed bias filter:                      719  (0.0281464); expected 510.9 (0.02)
+Passed Vit filter:                        52  (0.00203562); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.83u 0.55s 00:00:01.38 Elapsed: 00:00:00.80
+# Mc/sec: 1334.52
+//
+Query:       XP_023807072.1  [L=245]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.1e-22   81.5   1.1    1.1e-22   81.5   1.1    2.0  1  Basic     Myogenic Basic domain
+    2.1e-15   56.8   2.2    4.3e-15   55.8   2.2    1.6  1  HLH       Helix-loop-helix DNA-binding domain
+    2.5e-13   51.1   9.4    9.3e-13   49.2   9.4    2.0  1  Myf5      Myogenic determination factor 5
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.5   1.1   1.2e-26   1.1e-22       3      86 .]      16      91 ..      14      91 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 81.5 bits;  conditional E-value: 1.2e-26
+           Basic  3 lyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ly+ +c+ ++d++f+edl+ +rL++ +  llk ++ ++ +   +   ae  +++hvrap g H+aG+CLlWACK+CKrK++++D
+  XP_023807072.1 16 LYD-PCFATSDMNFFEDLD-TRLSHSS--LLKTED-QGHCLVPT---AEGEEDQHVRAPGGPHQAGHCLLWACKACKRKTTHAD 91
+                    665.9**************.***9999..555554.33443322...334579*****************************98 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.8   2.2     5e-19   4.3e-15       1      53 []      92     143 ..      92     143 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 55.8 bits;  conditional E-value: 5e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_023807072.1  92 RRKAATMRERRRLSKVNNAFETLKRCTV-SNPSQRLPKVEILRNAISYIESLQ 143
+                     89************************77.7**********************8 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   49.2   9.4   1.1e-16   9.3e-13       7      71 .]     162     220 ..     156     220 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 49.2 bits;  conditional E-value: 1.1e-16
+            Myf5   7 esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     +s+S++sSPrS  SDg +df+  ++++ e++        + + sss k+s++SSLdCLS+IVeRi
+  XP_023807072.1 162 SSESDTSSPRSTSSDGTMDFIHLSCARIENKQT------ADSCSSSRKTSLISSLDCLSNIVERI 220
+                     9***************************99933......3334567789***************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (245 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1085  (0.0424741); expected 510.9 (0.02)
+Passed bias filter:                      625  (0.0244666); expected 510.9 (0.02)
+Passed Vit filter:                        43  (0.0016833); expected 25.5 (0.001)
+Passed Fwd filter:                         6  (0.00023488); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.84u 0.48s 00:00:01.31 Elapsed: 00:00:00.77
+# Mc/sec: 1294.71
+//
+Query:       XP_025295134.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.7e-25   89.4  10.4    2.7e-25   89.4  10.4    1.7  1  Myf5      Myogenic determination factor 5
+    4.9e-19   69.7   3.9    7.7e-18   65.9   3.9    2.6  1  Basic     Myogenic Basic domain
+    4.8e-15   55.6   4.7      9e-15   54.7   4.7    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.4  10.4   3.1e-29   2.7e-25       2      71 .]     144     214 ..     143     214 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 89.4 bits;  conditional E-value: 3.1e-29
+            Myf5   2 eyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     +y +L   s+Sep+SP+S+CSDg+ ++nsPvws+++ss+ds+y+++ +n ++++++s++SSLdCLSsIV+Ri
+  XP_025295134.1 144 TYLGLaaPSCSEPTSPTSSCSDGLPECNSPVWSRKSSSFDSIYCPDGPN-VYATDKSSLSSLDCLSSIVDRI 214
+                     68888888*****************************************.677777889************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.9   3.9   9.1e-22   7.7e-18       2      86 .]      14      83 ..      13      83 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 65.9 bits;  conditional E-value: 9.1e-22
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     +y+  c+ +p+  f ++le +r ++++a     r+  +l++          ++ehvrap+g+H+aG+CLlWACK+CKrKs+t+D
+  XP_025295134.1 14 YFYDGACIPSPEGDFGDELE-ARGAAFGA----RRA--ALPGP--------DEDEHVRAPTGHHQAGHCLLWACKACKRKSTTTD 83
+                    79**************9999.55555553....233..22222........359*****************************99 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.7   4.7   1.1e-18     9e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.7 bits;  conditional E-value: 1.1e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_025295134.1  84 RRKAATMRERRRLKKVNQAFETLKRCTT-TNPNQRLPKVEILRNAIRYIESLQ 135
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1288  (0.0504208); expected 510.9 (0.02)
+Passed bias filter:                      842  (0.0329614); expected 510.9 (0.02)
+Passed Vit filter:                        73  (0.0028577); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.77u 0.60s 00:00:01.37 Elapsed: 00:00:00.79
+# Mc/sec: 1308.19
+//
+Query:       XP_025315455.1  [L=319]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.5e-29  101.9   1.6    4.9e-29  101.8   0.2    1.8  1  Basic     Myogenic Basic domain
+    1.1e-25   90.7   6.2    2.1e-25   89.7   6.2    1.5  1  Myf5      Myogenic determination factor 5
+    4.7e-15   55.6   2.6    7.7e-15   54.9   2.6    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.8   0.2   5.8e-33   4.9e-29       1      86 []      27     109 ..      27     109 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 101.8 bits;  conditional E-value: 5.8e-33
+           Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86 
+                     +++y+++c+ +pd rf+edl+ +rL++++a llk++e+   ++  +    +  ++ehvrapsg+H+aG+CLlWACK+CKrK++++D
+  XP_025315455.1  27 DDFYDDPCFDSPDLRFFEDLD-PRLVHVGA-LLKPEEHSHFPAAVH-PAPGAREDEHVRAPSGHHQAGRCLLWACKACKRKTTNAD 109
+                     69*******************.*******5.777777565555555.3344468******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.7   6.2   2.5e-29   2.1e-25       1      71 []     191     259 ..     191     259 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 89.7 bits;  conditional E-value: 2.5e-29
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssd.ssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+d+++P + +r+++++  +y+se+++e + +ks++vSSLdCLSsIVeRi
+  XP_025315455.1 191 EHY---SGDSDASSPRSNCSDGMMDYSGPPSGARRRNCYdGTYYSEAPSEPRPGKSAAVSSLDCLSSIVERI 259
+                     799...*************************9999998549******************************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.9   2.6   9.1e-19   7.7e-15       1      53 []     110     161 ..     110     161 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.9 bits;  conditional E-value: 9.1e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI  Lq
+  XP_025315455.1 110 RRKAATMRERRRLSKVNEAFETLKRCTS-SNPNQRLPKVEILRNAIRYIEGLQ 161
+                     89************************98.9*********************98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (319 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       855  (0.0334703); expected 510.9 (0.02)
+Passed bias filter:                      580  (0.022705); expected 510.9 (0.02)
+Passed Vit filter:                        51  (0.00199648); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.84u 0.54s 00:00:01.38 Elapsed: 00:00:00.78
+# Mc/sec: 1655.36
+//
+Query:       XP_027399073.1  [L=255]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.1e-28   98.4  13.0    4.1e-28   98.4  13.0    1.8  1  Myf5      Myogenic determination factor 5
+    2.2e-22   80.4   2.9    1.3e-21   78.0   2.9    2.3  1  Basic     Myogenic Basic domain
+    2.4e-15   56.5   4.2    4.5e-15   55.7   4.2    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.4  13.0   4.9e-32   4.1e-28       1      71 []     143     214 ..     143     214 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 98.4 bits;  conditional E-value: 4.9e-32
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yysL  +s+Sep+SP+S+CSDgm ++nsP+ws+++ss+ds+y+++++n ++++++s++SSLdCLSsIV+Ri
+  XP_027399073.1 143 ENYYSLpgQSCSEPTSPTSSCSDGMPECNSPIWSRKSSSFDSVYCPDVPN-VYATDKSSLSSLDCLSSIVDRI 214
+                     89************************************************.677777889************8 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.0   2.9   1.6e-25   1.3e-21       2      86 .]      14      83 ..      13      83 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 78.0 bits;  conditional E-value: 1.6e-25
+           Basic  2 elyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     +ye sc+ +p+ +f +++e +r+++++a  +k +     +        ++ ++ehvrap+g+H+aG+CL+WACK+CKrKs+tmD
+  XP_027399073.1 14 YFYEGSCIPSPEGEFGDEFE-PRVAAFGA--HKADL----Q--------GSDEDEHVRAPTGHHQAGHCLMWACKACKRKSTTMD 83
+                    79******************.***99995..32222....1........12359******************************9 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   55.7   4.2   5.3e-19   4.5e-15       1      53 []      84     135 ..      84     135 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 55.7 bits;  conditional E-value: 5.3e-19
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+afd+L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_027399073.1  84 RRKAATMRERRRLKKVNQAFDTLKRCTT-TNPNQRLPKVEILRNAIRYIESLQ 135
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (255 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1352  (0.0529262); expected 510.9 (0.02)
+Passed bias filter:                      822  (0.0321785); expected 510.9 (0.02)
+Passed Vit filter:                        57  (0.00223136); expected 25.5 (0.001)
+Passed Fwd filter:                         3  (0.00011744); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.89u 0.51s 00:00:01.40 Elapsed: 00:00:00.80
+# Mc/sec: 1300.23
+//
+Query:       XP_056877834.1  [L=263]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.6e-25   90.5   2.4    4.1e-25   89.2   0.6    2.2  1  Basic     Myogenic Basic domain
+    3.9e-21   76.1   7.9    3.9e-21   76.1   7.9    1.8  1  Myf5      Myogenic determination factor 5
+    9.8e-15   54.6   2.8      2e-14   53.6   2.8    1.6  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.2   0.6   4.8e-29   4.1e-25       1      86 []      13      95 ..      13      95 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 89.2 bits;  conditional E-value: 4.8e-29
+           Basic  1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrsseaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                    ++ly+++c+++ d +f++dl+++ L + +   +++ ++   ++e+ + e+e+ +eehvrap g H+aG+CLlWACK+CKrK++++D
+  XP_056877834.1 13 DDLYDDPCFSSGDLNFFDDLDSRLLLKPEG--HQHLHHHVPSAEE-ELEEETVVEEHVRAPGGLHQAGRCLLWACKACKRKTTHAD 95
+                    69*******************655555553..4433333222332.34555689******************************98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.1   7.9   4.5e-25   3.9e-21       2      71 .]     165     230 ..     160     230 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 76.1 bits;  conditional E-value: 4.5e-25
+            Myf5   2 eyysLesdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                      y   ++dSe+sSP+SnCSDg++d+ sP+++s+ ++ ++s  +  ++++ss+k+++vSSL+CLSsIVeRi
+  XP_056877834.1 165 PY---GADSEASSPQSNCSDGAMDYVSPCVTSNAKN-NRSRKNIQTTGDSSSKQCLVSSLECLSSIVERI 230
+                     45...89**********************9998888.444444444479********************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   2.8   2.3e-18     2e-14       1      53 []      96     147 ..      96     147 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 2.3e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++Ndaf++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_056877834.1  96 RRKAATMRERRRLSKVNDAFETLKRCTA-SNPNQRLAKVEILRNAISYIESLQ 147
+                     89************************99.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (263 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1209  (0.0473282); expected 510.9 (0.02)
+Passed bias filter:                      779  (0.0304952); expected 510.9 (0.02)
+Passed Vit filter:                        57  (0.00223136); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.89u 0.49s 00:00:01.38 Elapsed: 00:00:00.78
+# Mc/sec: 1365.99
+//
+Query:       XP_056878323.1  [L=240]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.6e-28   99.0   0.9    2.6e-28   99.0   0.9    2.2  1  Myf5      Myogenic determination factor 5
+    1.2e-14   55.6   0.1    3.2e-14   54.3   0.1    1.7  1  Basic     Myogenic Basic domain
+    8.5e-15   54.8   4.3    1.5e-14   54.0   4.3    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.0   0.9   3.1e-32   2.6e-28       1      71 []     127     198 ..     127     198 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 99.0 bits;  conditional E-value: 3.1e-32
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yy+L  es Sep+SP SnCSDg ad nsPvw+++++ ++s yl+++++   ++k++++SSL+CLSsIV+R+
+  XP_056878323.1 127 ESYYGLpgESGSEPGSPLSNCSDGPADGNSPVWQQMNAAYSSGYLYAKNE-ILTDKTAGASSLECLSSIVDRL 198
+                     79*********************************************999.*********************7 PP
+
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.3   0.1   3.8e-18   3.2e-14      49      86 .]      30      67 ..       5      67 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 54.3 bits;  conditional E-value: 3.8e-18
+           Basic 49 eaeealeehvrapsgeHcaGqCLlWACKiCKrKsvtmD 86
+                     a++ ++eh+r p + H++G+CL+WACK+CKrKs  +D
+  XP_056878323.1 30 LAGSEEDEHIRVPGAPHQPGHCLPWACKACKRKSNFVD 67
+                    2334689***************************8776 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   4.3   1.8e-18   1.5e-14       1      53 []      68     119 ..      68     119 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.8e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR +++N+afd+Lr++    +++++l K+eiLr Ai+YI +Lq
+  XP_056878323.1  68 RRRAATMRERRRLKKVNHAFDALRRCTS-ANSSQRLPKVEILRNAIQYIESLQ 119
+                     89************************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (240 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       925  (0.0362106); expected 510.9 (0.02)
+Passed bias filter:                      719  (0.0281464); expected 510.9 (0.02)
+Passed Vit filter:                        62  (0.00242709); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.80u 0.51s 00:00:01.31 Elapsed: 00:00:00.76
+# Mc/sec: 1275.80
+//
+Query:       XP_056907047.1  [L=282]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    4.6e-27   95.5   2.7    1.1e-26   94.2   2.7    1.7  1  Basic     Myogenic Basic domain
+    1.6e-24   86.9   5.0    1.6e-24   86.9   5.0    2.8  1  Myf5      Myogenic determination factor 5
+    7.6e-15   55.0   3.4    1.5e-14   54.0   3.4    1.5  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Basic  Myogenic Basic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.2   2.7   1.3e-30   1.1e-26       1      86 []      15     110 ..      15     110 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 94.2 bits;  conditional E-value: 1.3e-30
+           Basic   1 melyetscyffpdqrfledlensrLqgldaallkereslslasesrss.............eaeealeehvrapsgeHcaGqCLlWACKiCKrKs 82 
+                     +++y+++c++++d++f+ed++ +rL++ +  llk+++  s++s s ss             ++e   +eh+rapsg+H aG+CLlWACK+CKrK+
+  XP_056907047.1  15 DDFYDDPCFSTSDMHFFEDMD-PRLVHAG--LLKPDDCCSSSSLSPSSssaspssllhihhHTEAEDDEHIRAPSGHHHAGRCLLWACKACKRKT 106
+                     69*******************.***9999..6666664433322221134567788888865555789*************************** PP
+
+           Basic  83 vtmD 86 
+                     +++D
+  XP_056907047.1 107 TNVD 110
+                     **98 PP
+
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   86.9   5.0   1.9e-28   1.6e-24       1      71 []     178     244 ..     171     244 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 86.9 bits;  conditional E-value: 1.9e-28
+            Myf5   1 eeyysLesdSepsSPrSnCSDgmadfnsPvwssresssd.ssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+y   ++dS++sSPrSnCSDgm+dfn+P+++s+++ s+ ssy+s++++   s k+   SSLdCLSsIVeRi
+  XP_056907047.1 178 EHY---SGDSDASSPRSNCSDGMTDFNGPTCQSNRRGSYySSYFSQTPK--GSLKAERNSSLDCLSSIVERI 244
+                     677...**************************99888755*********..66677788************8 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.0   3.4   1.8e-18   1.5e-14       1      53 []     111     162 ..     111     162 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 54.0 bits;  conditional E-value: 1.8e-18
+             HLH   1 rreahnerERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53 
+                     rr+a++ rERrR  ++N+af++L+++   ++p+++l K+eiLr Ai+YI +Lq
+  XP_056907047.1 111 RRKAATLRERRRLSKVNEAFETLKRCTN-TNPNQRLPKVEILRNAISYIESLQ 162
+                     89************************99.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (282 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                       793  (0.0310433); expected 510.9 (0.02)
+Passed bias filter:                      484  (0.018947); expected 510.9 (0.02)
+Passed Vit filter:                        42  (0.00164416); expected 25.5 (0.001)
+Passed Fwd filter:                         4  (0.000156586); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.82u 0.49s 00:00:01.31 Elapsed: 00:00:00.76
+# Mc/sec: 1495.52
+//
+Query:       XP_073802758.1  [L=164]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.9e-26   93.1   9.6    1.9e-26   93.1   9.6    2.1  1  Myf5      Myogenic determination factor 5
+    7.4e-14   51.8   1.5    1.3e-13   51.0   1.5    1.4  1  HLH       Helix-loop-helix DNA-binding domain
+
+
+Domain annotation for each model (and alignments):
+>> Myf5  Myogenic determination factor 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.1   9.6   1.5e-30   1.9e-26       1      71 []      54     126 ..      54     126 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 93.1 bits;  conditional E-value: 1.5e-30
+            Myf5   1 eeyysL..esdSepsSPrSnCSDgmadfnsPvwssresssdssylselqnesssekssvvSSLdCLSsIVeRi 71 
+                     e+yysL  es+Sep+SP+S+CS +m+d+nsPvw ++++++ +sy  ++qn s+ e++ +vSSL+CLSsIV+R+
+  XP_073802758.1  54 ENYYSLpmESSSEPASPSSSCSESMVDCNSPVWPQMNQNYGNSYNFDAQNASTMERTPAVSSLQCLSSIVDRL 126
+                     89**********************************************************************7 PP
+
+>> HLH  Helix-loop-helix DNA-binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.0   1.5     1e-17   1.3e-13       8      53 .]       2      46 ..       1      46 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 51.0 bits;  conditional E-value: 1e-17
+             HLH  8 rERrRrdriNdafdeLrellPtlppdkKlsKaeiLrlAieYIkqLq 53
+                    rERrR +++N+af++Lr++    +p+++l K+eiLr Ai+YI +Lq
+  XP_073802758.1  2 RERRRLKKVNHAFEALRRCTS-ANPSQRLPKVEILRNAIQYIESLQ 46
+                    9******************88.9**********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (164 residues searched)
+Target model(s):                       25545  (4079224 nodes)
+Passed MSV filter:                      1127  (0.0441182); expected 510.9 (0.02)
+Passed bias filter:                      855  (0.0334703); expected 510.9 (0.02)
+Passed Vit filter:                        68  (0.00266197); expected 25.5 (0.001)
+Passed Fwd filter:                         2  (7.82932e-05); expected 0.3 (1e-05)
+Initial search space (Z):              25545  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.83u 0.46s 00:00:01.29 Elapsed: 00:00:00.77
+# Mc/sec: 860.33
+//
+[ok]

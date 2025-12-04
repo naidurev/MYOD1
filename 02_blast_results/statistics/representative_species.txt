@@ -1,0 +1,36 @@
+Representative Species for OrthoFinder Analysis
+================================================
+
+Selection based on:
+1. Phylogenetic diversity across vertebrates
+2. Well-annotated genomes
+3. Model organism status
+4. Presence of complete MRF family
+
+Selected Species (16):
+
+MAMMALS (5):
+  1. Homo sapiens (Human)
+  2. Mus musculus (Mouse)
+  3. Canis lupus familiaris (Dog)
+  4. Bos taurus (Cow)
+  5. Equus caballus (Horse)
+
+BIRDS (2):
+  6. Gallus gallus (Chicken)
+  7. Taeniopygia guttata (Zebra finch)
+
+REPTILES (2):
+  8. Anolis carolinensis (Anole lizard)
+  9. Python bivittatus (Burmese python)
+
+AMPHIBIANS (2):
+ 10. Xenopus tropicalis (Western clawed frog)
+ 11. Xenopus laevis (African clawed frog)
+
+FISH (5):
+ 12. Danio rerio (Zebrafish)
+ 13. Oryzias latipes (Medaka)
+ 14. Takifugu rubripes (Fugu)
+ 15. Salmo salar (Atlantic salmon)
+ 16. Latimeria chalumnae (Coelacanth - basal fish)

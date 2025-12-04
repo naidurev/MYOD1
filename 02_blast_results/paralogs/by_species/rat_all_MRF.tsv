@@ -1,0 +1,6 @@
+query_id	subject_id	percent_identity	alignment_length	mismatches	gap_opens	query_start	query_end	subject_start	subject_end	evalue	bitscore	query_coverage	tax_id	species_name	blast_name	kingdom	description
+NP_002469.2	ref|NP_788268.2|	87.188	320	39	2	1	320	1	318	0.0	547	100	10116	N/A	N/A	N/A	myoblast determination protein 1 [Rattus norvegicus]
+NP_002469.2	ref|XP_032751925.1|	86.250	320	42	2	1	320	1	318	0.0	540	100	10117	N/A	N/A	N/A	LOW QUALITY PROTEIN: myoblast determination protein 1-like [Rattus rattus]
+NP_002469.2	ref|XP_032749476.1|	86.250	320	41	3	1	320	1	317	0.0	532	100	10117	N/A	N/A	N/A	LOW QUALITY PROTEIN: myoblast determination protein 1-like [Rattus rattus]
+NP_002469.2	ref|XP_032746683.1|	43.046	302	117	8	21	320	7	255	8.98e-60	202	94	10117	N/A	N/A	N/A	myogenic factor 5 [Rattus rattus]
+NP_002469.2	ref|NP_001100253.1|	44.702	302	112	9	21	320	7	255	1.83e-59	201	94	10116	N/A	N/A	N/A	myogenic factor 5 [Rattus norvegicus]

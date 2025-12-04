@@ -1,0 +1,11 @@
+# cline: mcl /home/naidurev/PGB/MYOD1_project/03_orthofinder/results/Results_Nov06/WorkingDirectory/OrthoFinder_graph.txt "-I" "1.2" "-o" "/home/naidurev/PGB/MYOD1_project/03_orthofinder/results/Results_Nov06/WorkingDirectory/clusters_OrthoFinder_I1.2.txt" "-te" "4" "-V" "all"
+(mclheader
+mcltype matrix
+dimensions 56x2
+)
+(mclmatrix
+begin
+0      0_0 0_1 0_2 1_1 1_2 2_0 2_1 2_3 3_0 3_2 4_0 4_2 5_0 5_1 6_1 6_2 6_4 6_5 7_0 7_2 7_4 7_5 7_6 7_8 8_0 
+      8_1 8_3 8_4 8_5 8_7 9_2 9_3 9_6 9_7 10_2 10_3 $
+1      1_0 2_2 3_1 4_1 6_0 6_3 7_1 7_3 7_7 7_9 8_2 8_6 9_0 9_1 9_4 9_5 9_8 10_0 10_1 10_4 $
+)

@@ -1,0 +1,26 @@
+2025-11-06 11:22:56 : Started OrthoFinder version 3.1.0
+Command Line: /home/naidurev/miniconda3/envs/orthology/bin/orthofinder -f 03_orthofinder/proteomes/ -o 03_orthofinder/results/ -t 4 -a 4 -S diamond -M msa
+
+Search program: diamond
+MSA program: famsa
+Tree program: fasttree
+Scoring matrix: BLOSUM62
+Gap extend: 1
+Gap open: 11
+
+WorkingDirectory_Base: /home/naidurev/PGB/MYOD1_project/03_orthofinder/results/Results_Nov06/WorkingDirectory/
+
+Species used: 
+0: Bos_taurus.fasta
+1: Canis_lupus.fasta
+2: Danio_rerio.fasta
+3: Gallus_gallus.fasta
+4: Homo_sapiens.fasta
+5: Mus_musculus.fasta
+6: Oryzias_latipes.fasta
+7: Salmo_salar.fasta
+8: Takifugu_rubripes.fasta
+9: Xenopus_laevis.fasta
+10: Xenopus_tropicalis.fasta
+
+FN_Orthogroups: /home/naidurev/PGB/MYOD1_project/03_orthofinder/results/Results_Nov06/WorkingDirectory/clusters_OrthoFinder_I1.2.txt_id_pairs.txt

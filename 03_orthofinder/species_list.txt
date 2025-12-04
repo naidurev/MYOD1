@@ -1,0 +1,12 @@
+# Species for OrthoFinder analysis
+# Format: Species_name	Taxonomy_ID	Common_name
+Homo_sapiens	9606	Human
+Mus_musculus	10090	Mouse
+Canis_lupus_familiaris	9615	Dog
+Bos_taurus	9913	Cow
+Gallus_gallus	9031	Chicken
+Danio_rerio	7955	Zebrafish
+Xenopus_tropicalis	8364	Western_clawed_frog
+Takifugu_rubripes	31033	Fugu
+Oryzias_latipes	8090	Medaka
+Salmo_salar	8030	Atlantic_salmon

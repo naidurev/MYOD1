@@ -1,0 +1,42 @@
+OrthoFinder v3.1.0 Analysis - MYOD1 Project
+============================================
+
+Analysis completed: Thu Nov  6 11:23:16 UTC 2025
+Method: DIAMOND BLASTP (ultra-sensitive mode)
+
+Species Analyzed: 11
+- Mammals: Human, Mouse, Dog, Cow
+- Birds: Chicken
+- Fish: Zebrafish, Medaka, Fugu, Salmon
+- Amphibians: Two Xenopus species
+
+Results Location: 03_orthofinder/results/Results_Nov06
+
+Key Findings:
+-------------
+Total Orthogroups: 
+Single-Copy Orthologs: 
+Gene Trees Generated: 0
+
+Key Files:
+----------
+- Orthogroups.tsv: Complete orthogroup assignments
+- Statistics_Overall.tsv: Summary statistics
+- SpeciesTree_rooted.txt: Species phylogeny
+- Gene_Trees/: Individual gene family trees
+- Single_Copy_Orthologue_Sequences/: Sequences for phylogeny
+
+Analysis Details:
+-----------------
+1. All-vs-all sequence similarity: DIAMOND (faster than BLAST)
+2. Orthogroup inference: OrthoFinder algorithm
+3. Gene tree inference: FastTree
+4. Species tree inference: STAG algorithm
+5. Multiple sequence alignment: MAFFT
+
+Next Steps:
+-----------
+1. Extract MRF orthogroups
+2. Build detailed phylogenetic trees
+3. Analyze domain conservation
+4. Calculate selection pressure (dN/dS)

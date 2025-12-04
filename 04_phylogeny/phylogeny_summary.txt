@@ -1,0 +1,62 @@
+Phylogenetic Analysis Summary - MYOD1 Project
+==============================================
+
+Method: Maximum Likelihood with IQ-TREE
+----------------------------------------
+
+IQ-TREE Parameters:
+- Model selection: ModelFinder (TEST option)
+- Bootstrap support: UFBoot2 (1000 replicates)
+- Branch support: SH-aLRT test (1000 replicates)
+- Automatic thread optimization
+
+Analysis Strategy:
+------------------
+
+Two independent phylogenetic analyses were performed:
+
+1. MAFFT-based trees
+   - Input: L-INS-i alignments
+   - Purpose: Validate tree topology with cleaner alignment
+   - Advantage: Better handling of divergent regions
+
+2. PRANK-based trees
+   - Input: Phylogeny-aware alignments
+   - Purpose: Most accurate evolutionary inference
+   - Advantage: Proper indel modeling for branch lengths
+
+Tree Files Generated:
+---------------------
+
+OG0000000 (MYOD1/MYF5 orthogroup):
+  MAFFT tree: 04_phylogeny/mafft_trees/OG0000000_mafft.treefile
+  PRANK tree: 04_phylogeny/prank_trees/OG0000000_prank.treefile
+
+OG0000001 (MYOG orthogroup):
+  MAFFT tree: 04_phylogeny/mafft_trees/OG0000001_mafft.treefile
+  PRANK tree: 04_phylogeny/prank_trees/OG0000001_prank.treefile
+
+Support Values Interpretation:
+-------------------------------
+- UFBoot ≥95%: Strong support
+- UFBoot 80-94%: Moderate support
+- UFBoot <80%: Weak support
+- SH-aLRT ≥80%: Additional confidence
+
+Key Findings:
+-------------
+(To be filled after tree visualization)
+
+1. Orthogroup relationships
+2. Species groupings
+3. Paralog divergence timing
+4. Taxonomic conservation patterns
+
+Next Steps:
+-----------
+1. Visualize trees with FigTree/iTOL
+2. Compare MAFFT vs PRANK topologies
+3. Annotate trees with bootstrap values
+4. Identify duplication nodes
+5. Map to species tree
+

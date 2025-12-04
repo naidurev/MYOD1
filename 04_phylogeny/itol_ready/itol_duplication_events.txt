@@ -1,0 +1,70 @@
+DATASET_SYMBOL
+SEPARATOR TAB
+
+DATASET_LABEL	Gene Duplication Events
+COLOR	#ff0000
+
+LEGEND_TITLE	Evolutionary Events
+LEGEND_SHAPES	4	2	3
+LEGEND_COLORS	#E74C3C	#F39C12	#9B59B6
+LEGEND_LABELS	Gene Duplication	Whole Genome Duplication (WGD)	Ancient Duplication
+
+MAXIMUM_SIZE	15
+
+DATA
+# Major gene duplication events marked with symbols
+# Shape codes: 1=circle, 2=square, 3=triangle, 4=star, 5=diamond
+
+# Ancient vertebrate MRF gene duplications (MYOD1/MYF5/MYOG/MYOD2 split)
+# These are internal nodes - you'll need to identify them in iTOL
+# For now, marking key duplication points based on tree structure
+
+# Fish-specific WGD (teleost genome duplication)
+# Salmonid-specific duplication events
+Salmo_salar_MYOD1	2	10	#F39C12	1	1	Salmonid WGD
+Salmo_salar_MYOD1_2	2	10	#F39C12	1	1	
+Salmo_salar_MYOD1_3	2	10	#F39C12	1	1	
+Salmo_salar_MYF5	2	10	#F39C12	1	1	Salmonid WGD
+Salmo_salar_MYF5_2	2	10	#F39C12	1	1	
+Salmo_salar_MYOG	2	10	#F39C12	1	1	Salmonid WGD
+Salmo_salar_MYOG_2	2	10	#F39C12	1	1	
+Salmo_salar_MYOG_3	2	10	#F39C12	1	1	
+Salmo_salar_MYOG_4	2	10	#F39C12	1	1	
+
+# Teleost-specific duplications (3R WGD)
+Takifugu_rubripes_MYOD1	4	12	#E74C3C	1	1	Teleost duplication
+Takifugu_rubripes_MYOD1_2	4	12	#E74C3C	1	1	
+Takifugu_rubripes_MYOD1_3	4	12	#E74C3C	1	1	
+Takifugu_rubripes_MYF5	4	12	#E74C3C	1	1	Teleost duplication
+Takifugu_rubripes_MYF5_2	4	12	#E74C3C	1	1	
+Takifugu_rubripes_MYOG	4	12	#E74C3C	1	1	Teleost duplication
+Takifugu_rubripes_MYOG_2	4	12	#E74C3C	1	1	
+
+Oryzias_latipes_MYOD1	4	12	#E74C3C	1	1	Teleost duplication
+Oryzias_latipes_MYOD1_2	4	12	#E74C3C	1	1	
+Oryzias_latipes_MYOD1_3	4	12	#E74C3C	1	1	
+Oryzias_latipes_MYF5	4	12	#E74C3C	1	1	Teleost duplication
+Oryzias_latipes_MYOG	4	12	#E74C3C	1	1	Teleost duplication
+Oryzias_latipes_MYOG_2	4	12	#E74C3C	1	1	
+
+# Xenopus allotetraploidization duplications
+Xenopus_laevis_MYOD1	3	10	#9B59B6	1	1	Allopolyploid
+Xenopus_laevis_MYOD1_2	3	10	#9B59B6	1	1	
+Xenopus_laevis_MYF5	3	10	#9B59B6	1	1	Allopolyploid
+Xenopus_laevis_MYF5_2	3	10	#9B59B6	1	1	
+Xenopus_laevis_MYOG	3	10	#9B59B6	1	1	Allopolyploid
+Xenopus_laevis_MYOG_2	3	10	#9B59B6	1	1	
+Xenopus_laevis_MYOG_3	3	10	#9B59B6	1	1	
+Xenopus_laevis_MYOG_4	3	10	#9B59B6	1	1	
+Xenopus_laevis_MYOG_5	3	10	#9B59B6	1	1	
+
+Xenopus_tropicalis_MYOG_2	3	10	#9B59B6	1	1	Duplication
+Xenopus_tropicalis_MYOG_3	3	10	#9B59B6	1	1	
+
+# Bos taurus duplication
+Bos_taurus_MYF5	4	8	#E74C3C	1	1	Recent duplication
+Bos_taurus_MYF5_2	4	8	#E74C3C	1	1	
+
+# Danio rerio duplication
+Danio_rerio_MYF5	4	12	#E74C3C	1	1	Teleost duplication
+Danio_rerio_MYF5_2	4	12	#E74C3C	1	1	

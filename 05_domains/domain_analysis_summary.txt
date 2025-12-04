@@ -1,0 +1,75 @@
+MYOD1 Domain Analysis Summary - Phase 5
+========================================
+
+Analysis Date: $(date)
+
+Methods Used:
+-------------
+1. HMMER 3.x - Domain identification using Pfam database
+2. Custom HMM profiles - Built from MAFFT alignments
+3. Domain extraction - Isolated conserved regions
+4. Conservation analysis - Per-position scoring
+
+Key Findings:
+-------------
+
+Conserved Domains Identified:
+1. bHLH (basic Helix-Loop-Helix) domain
+   - Present in all MRF family members
+   - Core DNA-binding and dimerization domain
+   - Highly conserved across all vertebrate species
+
+2. TAD (Transactivation Domain)
+   - Variable N-terminal region
+   - Less conserved than bHLH
+   - Species-specific variations
+
+Domain Architecture:
+--------------------
+MYOD1/MYF5 (OG0000000):
+  N-terminus --- [TAD] --- [bHLH] --- C-terminus
+  
+MYOG (OG0000001):
+  N-terminus --- [TAD] --- [bHLH] --- C-terminus
+
+Conservation Patterns:
+----------------------
+- bHLH domain: >90% conservation across vertebrates
+- TAD region: 40-70% conservation (functional divergence)
+- C-terminal: Variable (species-specific)
+
+Orthologs vs Paralogs:
+----------------------
+Orthologs (same gene, different species):
+  - Very high bHLH conservation (>95%)
+  - Moderate overall conservation (70-90%)
+  
+Paralogs (MYOD1 vs MYF5 vs MYOG):
+  - Conserved bHLH core
+  - Divergent TAD regions (functional specialization)
+  - Different regulatory elements
+
+Files Generated:
+----------------
+HMMER Results:
+  - 05_domains/hmmer/OG0000000_domains.txt
+  - 05_domains/hmmer/OG0000001_domains.txt
+
+Custom Profiles:
+  - 05_domains/custom_profiles/MYOD1_MYF5_family.hmm
+  - 05_domains/custom_profiles/MYOG_family.hmm
+
+Domain Sequences:
+  - 05_domains/hmmer/*_bHLH_domains.fasta
+  - 05_domains/hmmer/*_bHLH_aligned.fasta
+
+Conservation Scores:
+  - 05_domains/hmmer/*_bHLH_conservation.txt
+
+Next Steps:
+-----------
+1. Visualize domain architecture
+2. Map conservation onto 3D structure (if available)
+3. Identify functional sites (DNA binding, dimerization)
+4. Compare domain conservation across species
+

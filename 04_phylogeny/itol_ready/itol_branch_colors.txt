@@ -1,0 +1,68 @@
+TREE_COLORS
+SEPARATOR TAB
+
+LEGEND_TITLE	Taxonomic Groups
+LEGEND_SHAPES	1	1	1	1
+LEGEND_COLORS	#FF6B6B	#4ECDC4	#95E1D3	#FFE66D
+LEGEND_LABELS	Mammalia	Aves	Amphibia	Actinopterygii
+
+DATA
+Homo_sapiens_MYOD1	range	#FF6B6B	Mammalia
+Mus_musculus_MYOD1	range	#FF6B6B	Mammalia
+Canis_lupus_MYOD1	range	#FF6B6B	Mammalia
+Bos_taurus_MYOD1	range	#FF6B6B	Mammalia
+Homo_sapiens_MYF5	range	#FF6B6B	Mammalia
+Mus_musculus_MYF5	range	#FF6B6B	Mammalia
+Canis_lupus_MYF5	range	#FF6B6B	Mammalia
+Bos_taurus_MYF5	range	#FF6B6B	Mammalia
+Bos_taurus_MYF5_2	range	#FF6B6B	Mammalia
+Homo_sapiens_MYOG	range	#FF6B6B	Mammalia
+Mus_musculus_MYOG	range	#FF6B6B	Mammalia
+Canis_lupus_MYOG	range	#FF6B6B	Mammalia
+Bos_taurus_MYOG	range	#FF6B6B	Mammalia
+Gallus_gallus_MYOD1	range	#4ECDC4	Aves
+Gallus_gallus_MYF5	range	#4ECDC4	Aves
+Gallus_gallus_MYOG	range	#4ECDC4	Aves
+Xenopus_laevis_MYOD1	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOD1_2	range	#95E1D3	Amphibia
+Xenopus_tropicalis_MYOD1	range	#95E1D3	Amphibia
+Xenopus_laevis_MYF5	range	#95E1D3	Amphibia
+Xenopus_laevis_MYF5_2	range	#95E1D3	Amphibia
+Xenopus_tropicalis_MYF5	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOG	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOG_2	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOG_3	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOG_4	range	#95E1D3	Amphibia
+Xenopus_laevis_MYOG_5	range	#95E1D3	Amphibia
+Xenopus_tropicalis_MYOG	range	#95E1D3	Amphibia
+Xenopus_tropicalis_MYOG_2	range	#95E1D3	Amphibia
+Xenopus_tropicalis_MYOG_3	range	#95E1D3	Amphibia
+Danio_rerio_MYOD1	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOD1	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOD1_2	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOD1_3	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYOD1	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYOD1_2	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYOD1_3	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOD1	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOD1_2	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOD1_3	range	#FFE66D	Actinopterygii
+Danio_rerio_MYF5	range	#FFE66D	Actinopterygii
+Danio_rerio_MYF5_2	range	#FFE66D	Actinopterygii
+Salmo_salar_MYF5	range	#FFE66D	Actinopterygii
+Salmo_salar_MYF5_2	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYF5	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYF5	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYF5_2	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOD2	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOD2	range	#FFE66D	Actinopterygii
+Danio_rerio_TAL2	range	#FFE66D	Actinopterygii
+Danio_rerio_MYOG	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOG	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOG_2	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOG_3	range	#FFE66D	Actinopterygii
+Salmo_salar_MYOG_4	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYOG	range	#FFE66D	Actinopterygii
+Oryzias_latipes_MYOG_2	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOG	range	#FFE66D	Actinopterygii
+Takifugu_rubripes_MYOG_2	range	#FFE66D	Actinopterygii

@@ -1,0 +1,41 @@
+MYOD1 Taxonomic Conservation Analysis
+======================================
+
+MRF Family Distribution:
+
+Total sequences per MRF member:
+  MYOD1: 875
+  MYF5:  712
+  MYOG:  448
+  MYF6:  383
+  Total: 2418
+
+Distribution by Vertebrate Class:
+
+MYOD1 distribution:
+  Mammals: 52
+  Birds: 9
+  Reptiles: 15
+  Amphibians: 8
+  Fish: 68
+
+MYF5 distribution:
+  Mammals: 51
+  Birds: 10
+  Reptiles: 13
+  Amphibians: 9
+  Fish: 45
+
+MYOG distribution:
+  Mammals: 20
+  Birds: 12
+  Reptiles: 10
+  Amphibians: 4
+  Fish: 31
+
+MYF6 distribution:
+  Mammals: 14
+  Birds: 0
+  Reptiles: 9
+  Amphibians: 10
+  Fish: 35

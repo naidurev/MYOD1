@@ -1,0 +1,34 @@
+Multiple Sequence Alignment Comparison - MYOD1 Project
+=======================================================
+
+Two alignment methods were employed to ensure robust phylogenetic inference:
+
+1. MAFFT (L-INS-i algorithm)
+   Purpose: Domain conservation analysis, conserved motif identification
+   Algorithm: Iterative refinement with local pairwise alignment
+   Advantages: 
+   - Superior handling of divergent sequences (fish-mammal comparison)
+   - Cleaner alignment for visual interpretation
+   - Better suited for large evolutionary distances
+   - Optimized for domain identification
+   
+2. PRANK (Phylogeny-aware alignment)
+   Purpose: Phylogenetic tree construction
+   Algorithm: Explicit modeling of insertions vs deletions
+   Advantages:
+   - More biologically realistic gap placement
+   - Reduces phylogenetic artifacts from indel misalignment
+   - Better branch length estimation
+   - Proper evolutionary modeling
+
+Methodology Justification:
+--------------------------
+The dual-method approach allows us to:
+- Use MAFFT for identifying conserved functional domains (clearer patterns)
+- Use PRANK for accurate phylogenetic tree topology (evolutionary correctness)
+- Compare results to validate robustness of findings
+- Demonstrate methodological rigor
+
+This approach is consistent with best practices in comparative genomics
+where different MSA methods serve complementary analytical purposes.
+

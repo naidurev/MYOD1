@@ -1,0 +1,40 @@
+MYOD1 Protein Information
+=========================
+
+Protein: Myogenic Differentiation 1 (MYOD1)
+Species: Homo sapiens (Human)
+
+NCBI Reference: NP_002469.2
+UniProt ID: P15172
+Gene ID: 4654
+
+Function:
+---------
+MYOD1 is a nuclear protein that belongs to the basic helix-loop-helix (bHLH) 
+family of transcription factors. It acts as a master regulator of skeletal 
+muscle differentiation and is capable of converting fibroblasts into myoblasts.
+
+Key Domains:
+------------
+1. bHLH domain (basic helix-loop-helix)
+2. TAD (Transactivation domain)
+
+Biological Process:
+-------------------
+- Muscle cell differentiation
+- Myogenesis
+- Transcription regulation
+
+Molecular Function:
+-------------------
+- DNA binding
+- Transcription factor activity
+- Protein heterodimerization
+
+Files Generated:
+----------------
+- MYOD1_human.fasta : Protein sequence (FASTA format)
+- MYOD1_human_uniprot.fasta : UniProt sequence
+- MYOD1_human.gb : GenBank annotation
+- MYOD1_info.txt : This summary file
+

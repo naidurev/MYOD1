@@ -1,0 +1,36 @@
+Rank  Gene      Peaks   Function/Category
+----  ----      -----   -----------------
+1     Igf1      47      Growth factor (muscle hypertrophy)
+2     Tnnt3     33      Troponin T3 (fast skeletal muscle contraction)
+3     Cacnb3    28      Calcium channel beta-3 (excitation-contraction)
+4     Ldb3      19      LIM domain binding 3/Cypher (Z-disc protein)
+5     Eno3      18      Enolase 3 (muscle glycolysis)
+6     Cacna1a   18      Calcium channel alpha-1A (muscle excitation)
+7     Mef2d     17      Myocyte enhancer factor 2D (muscle TF)
+8     Tpm3      14      Tropomyosin 3 (thin filament regulation)
+9     Synpo2l   14      Synaptopodin 2-like (Z-disc protein)
+10    Cacnb1    14      Calcium channel beta-1 (excitation-contraction)
+11    Dysf      12      Dysferlin (sarcolemma repair)
+12    Dok7      12      Docking protein 7 (NMJ formation)
+13    Tnnt2     11      Troponin T2 (cardiac/slow muscle)
+14    Pfkm      11      Phosphofructokinase muscle (glycolysis)
+15    Tpm2      10      Tropomyosin 2 (thin filament)
+16    Tpm1      10      Tropomyosin 1 (thin filament)
+17    Mybph     10      Myosin binding protein H (thick filament)
+18    Fhl3      10      Four and a half LIM domains 3 (muscle protein)
+19    Dag1      10      Dystrophin-associated glycoprotein 1
+20    Atp2a1    10      SERCA1 (SR calcium pump)
+
+BONUS - Critical MRFs (Master Regulatory Factors):
+21    Myod1     4       MYOD1 itself (autoregulation!)
+22    Myog      2       Myogenin (muscle differentiation TF)
+23    Myf5      2       Myogenic factor 5 (muscle determination)
+
+BONUS - Core Contractile Proteins:
+      Myh3      8       Myosin heavy chain 3 (embryonic)
+      Ryr1      8       Ryanodine receptor 1 (calcium release)
+      Tnni1     8       Troponin I1 (slow skeletal)
+      Des       2       Desmin (intermediate filament)
+      Acta1     3       Actin alpha 1 (skeletal muscle)
+      Actc1     5       Actin alpha cardiac
+      Ckm       4       Creatine kinase muscle (energy)

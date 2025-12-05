@@ -1,0 +1,24 @@
+MYOD1 E-box Motif Analysis
+==================================================
+
+Total peaks analyzed: 77310
+Peaks with E-box motif: 68513 (88.6%)
+Total E-box occurrences: 123824
+
+E-box variant frequencies:
+  CAGCTG: 41682
+  CAGGTG: 12937
+  CACCTG: 12793
+  CATCTG: 7777
+  CAGATG: 7698
+  CACATG: 6076
+  CAGTTG: 5860
+  CAACTG: 5768
+  CATGTG: 5580
+  CACTTG: 3586
+  CAAGTG: 3507
+  CATTTG: 3075
+  CAAATG: 2876
+  CATATG: 1856
+  CACGTG: 1839
+  CAATTG: 914

@@ -1,0 +1,33 @@
+How to Visualize MYOD1 ChIP-seq Data in IGV
+============================================
+
+1. Download and open IGV (Integrative Genomics Viewer)
+   https://software.broadinstitute.org/software/igv/download
+
+2. Load mouse genome (mm10):
+   Genomes → Load Genome from Server → Mouse mm10
+
+3. Load your data files:
+   File → Load from File → Select:
+   - 05_alignment/SRR396786_sorted.bam (MYOD1 ChIP-seq)
+   - 05_alignment/SRR398262_sorted.bam (Control)
+   - 06_peaks/MYOD1_peaks_peaks.narrowPeak (Peak calls)
+   - 10_visualization/top100_peaks.bed (Top peaks)
+
+4. Navigate to interesting regions:
+   - Search for muscle genes: Myod1, Myog, Actc1, Des
+   - Or paste coordinates from top peaks
+
+5. Visualization tips:
+   - Right-click track → Set track height (50-100)
+   - Right-click track → Autoscale
+   - Use Zoom slider to see peak details
+   - Compare MYOD1 vs Control tracks
+
+Example coordinates to explore (top peaks):
+$(head -10 10_visualization/top100_peaks.bed | awk '{printf "  %s:%d-%d\n", $1, $2, $3}')
+
+Look for:
+  ✓ Clear enrichment in MYOD1 vs Control
+  ✓ Peaks near muscle gene promoters
+  ✓ Conserved E-box motifs in peak sequences

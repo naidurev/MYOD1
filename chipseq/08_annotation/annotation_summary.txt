@@ -1,0 +1,34 @@
+MYOD1 ChIP-seq Peak Annotation Summary
+========================================
+
+Total peaks identified: 77310
+Peaks overlapping gene promoters (±2kb from TSS): 48662
+Percentage in promoters: 62.9%
+
+Top genes with multiple MYOD1 binding sites:
+   60 peaks: Odf2
+   54 peaks: Angel2
+   50 peaks: Junos
+   48 peaks: Trim46
+   48 peaks: Zeb1
+   47 peaks: Igf1
+   45 peaks: Il3ra
+   45 peaks: Zmynd8
+   44 peaks: Mbtd1
+   44 peaks: Tsga10
+   42 peaks: Brd2
+   42 peaks: Ilkap
+   42 peaks: Lzts2
+   41 peaks: Anapc15
+   41 peaks: Slx4
+   39 peaks: Ilf3
+   39 peaks: Trip12
+   38 peaks: Bbc3
+   38 peaks: Crem
+   38 peaks: Csad
+
+Peak distribution:
+  - Promoter regions: 48662 peaks
+  - Intergenic/other: 28648 peaks
+
+Known muscle-related genes should appear in top hits.

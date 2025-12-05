@@ -1,0 +1,9 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	VCASCTGYYNYYBSC	MEME-1	VCASCTGYYNYYBSC	15	495	6.5e-672	MEME	 	 	 
+2	MEME	RRCAGSTG	MEME-2	RRCAGSTG	8	351	1.1e-189	MEME	 	 	 
+3	MEME	CTGTCA	MEME-3	CTGTCA	6	155	3.1e-023	MEME	 	 	 
+4	STREME	1-VCASCTGYYVYBBSCNNTB	STREME-1	VCASCTGYYVYBBSCNNTB	19	444	2.4e-010	STREME	 	 	 
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.5.8 released on Thu May 15 15:01:46 2025 -0700
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc 10_meme_analysis/memechip_results -meme-nmotifs 10 -minw 6 -maxw 20 10_meme_analysis/peak_sequences.fa

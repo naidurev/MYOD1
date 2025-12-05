@@ -1,0 +1,106 @@
+# ==========================================
+# LARGE DATA FILES (can be regenerated)
+# ==========================================
+
+# Raw sequencing data (KEEP on Zenodo, exclude from GitHub)
+chipseq/01_rawData/*.fastq.gz
+chipseq/02_trimmed/*.fastq.gz
+
+# Alignment files (KEEP BAM indices only, exclude BAM files)
+chipseq/05_alignment/*.bam
+# KEEP: chipseq/05_alignment/*.bam.bai (small index files)
+# KEEP: chipseq/05_alignment/*.log (alignment logs)
+# KEEP: chipseq/05_alignment/*_stats.txt (statistics)
+
+# BigWig files (can be regenerated from BAM)
+chipseq/10_heatmap/*.bw
+chipseq/10_heatmap/*.bigWig
+
+# Intermediate matrices (can be regenerated)
+chipseq/10_heatmap/matrix_*.gz
+chipseq/10_heatmap/peaks_sorted.bed
+
+# ==========================================
+# REGENERABLE RESULTS
+# ==========================================
+
+# FastQC outputs (can be regenerated)
+chipseq/03_fastqc_raw/*.zip
+chipseq/04_fastqc_trimmed/*.zip
+# KEEP: *.html and *.pdf (small summary files)
+
+# Large MEME results (keep summaries only)
+chipseq/10_meme_analysis/memechip_results/meme_out/*.eps
+chipseq/10_meme_analysis/memechip_results/fimo_out_*/fimo.tsv
+chipseq/10_meme_analysis/memechip_results/fimo_out_*/cisml.xml
+chipseq/10_meme_analysis/memechip_results/streme_out/*.xml
+# KEEP: HTML summaries and key result files
+
+# ==========================================
+# TEMPORARY/SYSTEM FILES
+# ==========================================
+
+# Windows metadata
+*:Zone.Identifier
+*.Zone.Identifier
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*_temp_*
+*_tmp_*
+
+# Backup files
+*.bak
+*~
+
+# Compressed archives (if you create any)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# ==========================================
+# KEEP THESE ESSENTIAL FILES
+# ==========================================
+# (Listed here for clarity - NOT excluded)
+#
+# KEEP: chipseq/06_peaks/* (all peak files - ESSENTIAL)
+# KEEP: chipseq/08_annotation/* (all annotation results)
+# KEEP: chipseq/09_chipseeker/*.csv (enrichment CSVs)
+# KEEP: chipseq/09_chipseeker/*.pdf (plots)
+# KEEP: chipseq/09_motifs/* (motif analysis)
+# KEEP: chipseq/presentation_*/* (presentation materials)
+# KEEP: chipseq/*.sh (all scripts)
+# KEEP: *.html and *.pdf (summaries and figures)
+

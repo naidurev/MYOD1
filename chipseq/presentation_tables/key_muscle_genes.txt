@@ -1,0 +1,25 @@
+# Key Muscle-Specific Genes with MYOD1 Binding
+# These are well-known myogenic regulatory factors and muscle structural genes
+
+Gene      Full Name                          Peaks  Function
+─────────────────────────────────────────────────────────────────────
+Myog      Myogenin                          ?      Master regulator of myogenesis
+Myf5      Myogenic Factor 5                 ?      Early muscle determination
+Myf6      Myogenic Factor 6 (MRF4)          ?      Muscle differentiation
+Des       Desmin                            ?      Intermediate filament protein
+Ckm       Creatine Kinase, Muscle           ?      Energy metabolism
+Actc1     Actin, Alpha Cardiac Muscle 1     ?      Muscle contraction
+Acta1     Actin, Alpha Skeletal Muscle      ?      Muscle contraction
+Mef2c     Myocyte Enhancer Factor 2C        ?      Transcription co-factor
+Mef2d     Myocyte Enhancer Factor 2D        ?      Transcription co-factor
+Tnnc2     Troponin C2, Fast Skeletal        ?      Calcium binding
+Tnnt3     Troponin T3, Fast Skeletal        ?      Muscle contraction
+Myh1      Myosin Heavy Chain 1              ?      Motor protein
+Myh2      Myosin Heavy Chain 2              ?      Motor protein
+Ttn       Titin                             ?      Sarcomere structure
+Neb       Nebulin                           ?      Thin filament regulation
+Tnni2     Troponin I2, Fast Skeletal        ?      Contraction regulation
+Mb        Myoglobin                         ?      Oxygen storage
+Mstn      Myostatin                         ?      Negative regulator
+Pax7      Paired Box 7                      ?      Satellite cell marker
+Six1      SIX Homeobox 1                    ?      Muscle development

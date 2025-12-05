@@ -1,0 +1,45 @@
+MYOD1 ChIP-seq Peak Calling Summary
+====================================
+
+Total peaks identified: 77310
+
+Peak files generated:
+  - MYOD1_peaks_peaks.narrowPeak (BED format)
+  - MYOD1_peaks_summits.bed (peak summits)
+  - MYOD1_peaks_peaks.xls (detailed info)
+
+Peak distribution by chromosome:
+  chr1         5691 peaks
+  chr10        4681 peaks
+  chr11        5103 peaks
+  chr12        3193 peaks
+  chr13        3432 peaks
+  chr14        2930 peaks
+  chr15        3408 peaks
+  chr16        2598 peaks
+  chr17        3451 peaks
+  chr18        2614 peaks
+  chr19        2330 peaks
+  chr1_GL456213_random      1 peaks
+  chr1_GL456221_random      2 peaks
+  chr2         6418 peaks
+  chr3         3757 peaks
+  chr4         4211 peaks
+  chr4_GL456216_random      4 peaks
+  chr5         4855 peaks
+  chr6         4142 peaks
+  chr7         4145 peaks
+  chr8         4383 peaks
+  chr9         4281 peaks
+  chrUn_GL456239      8 peaks
+  chrUn_GL456370      4 peaks
+  chrUn_GL456381      2 peaks
+  chrUn_GL456383      4 peaks
+  chrUn_GL456387      5 peaks
+  chrUn_GL456389      2 peaks
+  chrUn_GL456390      2 peaks
+  chrUn_GL456392      5 peaks
+  chrUn_GL456393     14 peaks
+  chrUn_JH584304     92 peaks
+  chrX         1520 peaks
+  chrY           22 peaks

@@ -79,3 +79,7 @@ __pycache__/
 # chipseq/*_stats.txt - Statistics
 # chipseq/*.log - Logs
 
+
+# Additional large files
+chipseq/10_heatmap/matrix_peaks/matrix_peaks
+chipseq/09_chipseeker/peak_heatmap.pdf

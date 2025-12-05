@@ -1,0 +1,54 @@
+Invoking:
+  getsize 10_meme_analysis/memechip_results/peak_sequences.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.0447650000000001
+Invoking:
+  fasta-most -min 50 < 10_meme_analysis/memechip_results/peak_sequences.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.157475
+Invoking:
+  fasta-center -dna -len 100 < 10_meme_analysis/memechip_results/peak_sequences.fa 1> 10_meme_analysis/memechip_results/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.294891
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 10_meme_analysis/memechip_results/peak_sequences.fa 10_meme_analysis/memechip_results/background
+Finished invoke:
+  name: bg  status: 0  time: 0.020091
+Invoking:
+  meme 10_meme_analysis/memechip_results/seqs-centered -oc 10_meme_analysis/memechip_results/meme_out -mod zoops -nmotifs 10 -minw 6 -maxw 20 -bfile 10_meme_analysis/memechip_results/background -dna -seed 0 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 7249.382577
+Invoking:
+  streme --verbosity 1 --oc 10_meme_analysis/memechip_results/streme_out -dna --seed 0 --p 10_meme_analysis/memechip_results/seqs-centered --minw 6 --maxw 20 --order 2
+Finished invoke:
+  name: streme  status: 0  time: 16.218691
+Invoking:
+  centrimo -seqlen 200 -verbosity 1 -oc 10_meme_analysis/memechip_results/centrimo_out -bfile 10_meme_analysis/memechip_results/background 10_meme_analysis/memechip_results/peak_sequences.fa 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/streme_out/streme.xml
+Finished invoke:
+  name: centrimo  status: 256  time: 0.506874
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 10_meme_analysis/memechip_results/combined.meme 10_meme_analysis/memechip_results/combined.meme 1> 10_meme_analysis/memechip_results/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.189511
+Invoking:
+  spamo -verbosity 1 -oc 10_meme_analysis/memechip_results/spamo_out_1 -bgfile 10_meme_analysis/memechip_results/background -keepprimary -primary VCASCTGYYNYYBSC 10_meme_analysis/memechip_results/peak_sequences.fa 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 256  time: 0.922588
+Invoking:
+  spamo -verbosity 1 -oc 10_meme_analysis/memechip_results/spamo_out_1 -bgfile 10_meme_analysis/memechip_results/background -keepprimary -primary CTGTCA 10_meme_analysis/memechip_results/peak_sequences.fa 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 256  time: 0.860737
+Invoking:
+  fimo --verbosity 1 --oc 10_meme_analysis/memechip_results/fimo_out_1 --bgfile 10_meme_analysis/memechip_results/background --motif VCASCTGYYNYYBSC 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/peak_sequences.fa
+Finished invoke:
+  name: fimo1  status: 0  time: 0.528699
+Invoking:
+  fimo --verbosity 1 --oc 10_meme_analysis/memechip_results/fimo_out_2 --bgfile 10_meme_analysis/memechip_results/background --motif CTGTCA 10_meme_analysis/memechip_results/meme_out/meme.xml 10_meme_analysis/memechip_results/peak_sequences.fa
+Finished invoke:
+  name: fimo2  status: 0  time: 0.411849
+Writing output
+Invoking:
+  meme-chip_html_to_tsv 10_meme_analysis/memechip_results/meme-chip.html 10_meme_analysis/memechip_results/summary.tsv "meme-chip -oc 10_meme_analysis/memechip_results -meme-nmotifs 10 -minw 6 -maxw 20 10_meme_analysis/peak_sequences.fa" 5.5.8 "Thu May 15 15\:01\:46 2025 -0700"
+Finished invoke:
+  name: summary  status: 0  time: 0.314952
+Done

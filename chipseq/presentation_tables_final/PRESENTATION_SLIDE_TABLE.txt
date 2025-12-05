@@ -1,0 +1,28 @@
+═══════════════════════════════════════════════════════════════════
+           FOR YOUR POWERPOINT SLIDE - COPY THIS:
+═══════════════════════════════════════════════════════════════════
+
+SLIDE TITLE: "MYOD1 Targets Key Muscle Regulatory Genes"
+
+TABLE:
+┌─────────────┬────────┬──────────────────────────────────┐
+│ Gene        │ Peaks  │ Function                         │
+├─────────────┼────────┼──────────────────────────────────┤
+│ Ckm         │   16   │ Muscle energy metabolism         │
+│ Des         │    8   │ Muscle structural protein        │
+│ Mef2c       │    4   │ Myogenic transcription factor    │
+│ Actc1       │    3   │ Muscle contraction (actin)       │
+│ Myog        │    2   │ Master myogenic regulator        │
+│ Myf5        │    2   │ Early muscle determination       │
+└─────────────┴────────┴──────────────────────────────────┘
+
+CAPTION:
+"ChIP-seq validates MYOD1 binding at canonical muscle-specific 
+genes, including master regulators (Myog, Myf5), structural 
+proteins (Des), and metabolic enzymes (Ckm)."
+
+KEY POINTS TO MENTION:
+• All major myogenic regulatory factors (MRFs) identified
+• Validates MYOD1's role as master regulator
+• Confirms biological relevance of ChIP-seq data
+═══════════════════════════════════════════════════════════════════

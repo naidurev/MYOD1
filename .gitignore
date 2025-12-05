@@ -64,21 +64,6 @@ __pycache__/
 *.temp
 *.bak
 
-# ==========================================
-# KEEP THESE ESSENTIAL FILES (NOT excluded)
-# ==========================================
-# chipseq/06_peaks/* - Peak calling results
-# chipseq/08_annotation/* - Gene annotations
-# chipseq/09_chipseeker/*.csv - Enrichment results
-# chipseq/09_chipseeker/*.pdf - Figures
-# chipseq/09_motifs/* - Motif analysis
-# chipseq/presentation_*/* - Presentation materials
-# chipseq/*.sh - Analysis scripts
-# chipseq/*.html - QC summaries
-# chipseq/*.pdf - Figures
-# chipseq/*_stats.txt - Statistics
-# chipseq/*.log - Logs
-
 
 # Additional large files
 chipseq/10_heatmap/matrix_peaks/matrix_peaks

@@ -1,1 +1,81 @@
-05_domains/pfam_database/
+# ==========================================
+# LARGE DATA FILES (Exclude from GitHub)
+# ==========================================
+
+# Raw sequencing data (7-10 GB) - available on NCBI SRA
+chipseq/01_rawData/*.fastq.gz
+
+# Trimmed reads (2-3 GB) - regenerable from raw data
+chipseq/02_trimmed/*.fastq.gz
+
+# Alignment files (1-2 GB) - regenerable from FASTQ
+chipseq/05_alignment/*.bam
+
+# BigWig signal tracks (500 MB) - regenerable from BAM
+chipseq/10_heatmap/*.bw
+chipseq/10_heatmap/*.bigWig
+chipseq/10_heatmap/matrix_*.gz
+chipseq/10_heatmap/peaks_sorted.bed
+
+# FastQC zip archives (50 MB) - keep HTML/PDF only
+chipseq/03_fastqc_raw/*.zip
+chipseq/04_fastqc_trimmed/*.zip
+
+# Large MEME output files
+chipseq/10_meme_analysis/memechip_results/meme_out/*.eps
+chipseq/10_meme_analysis/memechip_results/fimo_out_*/*.tsv
+chipseq/10_meme_analysis/memechip_results/fimo_out_*/cisml.xml
+chipseq/10_meme_analysis/memechip_results/streme_out/*.xml
+
+# ==========================================
+# TEMPORARY/SYSTEM FILES
+# ==========================================
+
+# Windows metadata
+*:Zone.Identifier
+*.Zone.Identifier
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.Python
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# KEEP THESE ESSENTIAL FILES (NOT excluded)
+# ==========================================
+# chipseq/06_peaks/* - Peak calling results
+# chipseq/08_annotation/* - Gene annotations
+# chipseq/09_chipseeker/*.csv - Enrichment results
+# chipseq/09_chipseeker/*.pdf - Figures
+# chipseq/09_motifs/* - Motif analysis
+# chipseq/presentation_*/* - Presentation materials
+# chipseq/*.sh - Analysis scripts
+# chipseq/*.html - QC summaries
+# chipseq/*.pdf - Figures
+# chipseq/*_stats.txt - Statistics
+# chipseq/*.log - Logs
+
